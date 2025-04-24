@@ -46,9 +46,6 @@ class AchievementsActivity : AppCompatActivity() {
         adapter = AchievementAdapter(this@AchievementsActivity, achievements)
         recyclerView.adapter = adapter
         
-        // Animasyonları uygula
-        AnimationUtils.applyItemAnimations(recyclerView)
-        
         // Başarı istatistiklerini göster
         updateAchievementStats()
     }

@@ -55,7 +55,7 @@ class CollectionFragment : Fragment() {
         val collectedSpecies = allSpecies.filter { it.id in collectedSpeciesIds }
         
         // Adapter'ı ayarla
-        val adapter = CollectionAdapter(this, collectedSpecies) { species ->
+        val adapter = CollectionAdapter(this@CollectionFragment, collectedSpecies) { species ->
             // Tür seçildiğinde detay ekranını aç
             openSpeciesDetail(species)
         }
@@ -72,7 +72,7 @@ class CollectionFragment : Fragment() {
             Species(
                 1,
                 "Meşe Ağacı",
-                "Panthera onca",
+                "Quercus robur",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_oak_tree,
@@ -84,7 +84,7 @@ class CollectionFragment : Fragment() {
             Species(
                 2,
                 "Sincap",
-                "Panthera onca",
+                "Sciurus vulgaris",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_squirrel,
@@ -96,7 +96,7 @@ class CollectionFragment : Fragment() {
             Species(
                 3,
                 "Geyik",
-                "Panthera onca",
+                "Cervus elaphus",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_deer,
@@ -108,7 +108,7 @@ class CollectionFragment : Fragment() {
             Species(
                 4,
                 "Mantar",
-                "Panthera onca",
+                "Agaricus bisporus",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_mushroom,
@@ -122,7 +122,7 @@ class CollectionFragment : Fragment() {
             Species(
                 5,
                 "Yunus",
-                "Panthera onca",
+                "Delphinus delphis",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_dolphin,
@@ -134,7 +134,7 @@ class CollectionFragment : Fragment() {
             Species(
                 6,
                 "Mercan",
-                "Panthera onca",
+                "Corallium rubrum",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_coral,
@@ -146,7 +146,7 @@ class CollectionFragment : Fragment() {
             Species(
                 7,
                 "Deniz Yıldızı",
-                "Panthera onca",
+                "Asterias rubens",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_starfish,
@@ -158,7 +158,7 @@ class CollectionFragment : Fragment() {
             Species(
                 8,
                 "Ahtapot",
-                "Panthera onca",
+                "Octopus vulgaris",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_octopus,
@@ -172,7 +172,7 @@ class CollectionFragment : Fragment() {
             Species(
                 9,
                 "Kaktüs",
-                "Panthera onca",
+                "Carnegiea gigantea",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_cactus,
@@ -184,7 +184,7 @@ class CollectionFragment : Fragment() {
             Species(
                 10,
                 "Çöl Tilkisi",
-                "Panthera onca",
+                "Vulpes zerda",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_desert_fox,
@@ -196,7 +196,7 @@ class CollectionFragment : Fragment() {
             Species(
                 11,
                 "Akrep",
-                "Panthera onca",
+                "Androctonus australis",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_scorpion,
@@ -208,7 +208,7 @@ class CollectionFragment : Fragment() {
             Species(
                 12,
                 "Deve",
-                "Panthera onca",
+                "Camelus dromedarius",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_camel,
@@ -222,7 +222,7 @@ class CollectionFragment : Fragment() {
             Species(
                 13,
                 "Kutup Ayısı",
-                "Panthera onca",
+                "Ursus maritimus",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_polar_bear,
@@ -234,7 +234,7 @@ class CollectionFragment : Fragment() {
             Species(
                 14,
                 "Penguen",
-                "Panthera onca",
+                "Aptenodytes forsteri",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_penguin,
@@ -246,7 +246,7 @@ class CollectionFragment : Fragment() {
             Species(
                 15,
                 "Fok",
-                "Panthera onca",
+                "Phoca vitulina",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_seal,
@@ -258,7 +258,7 @@ class CollectionFragment : Fragment() {
             Species(
                 16,
                 "Ren Geyiği",
-                "Panthera onca",
+                "Rangifer tarandus",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_reindeer,

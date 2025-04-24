@@ -6,7 +6,6 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.view.animation.ScaleAnimation
 import androidx.recyclerview.widget.RecyclerView
-import com.airbnb.lottie.LottieAnimationView
 
 /**
  * AnimationUtils - Uygulama genelinde kullanılan animasyonları yöneten yardımcı sınıf
@@ -102,46 +101,6 @@ class AnimationUtils {
             )
             scaleAnimation.duration = 500
             gameContainer.startAnimation(scaleAnimation)
-        }
-        
-        /**
-         * Başarı animasyonunu oynatır
-         */
-        fun playAchievementAnimation(lottieView: LottieAnimationView, animationName: String) {
-            lottieView.setAnimation(animationName)
-            lottieView.playAnimation()
-        }
-        
-        /**
-         * Ekosistem animasyonunu oynatır
-         */
-        fun playEcosystemAnimation(lottieView: LottieAnimationView, ecosystemType: String) {
-            val animationFile = when (ecosystemType) {
-                "Orman" -> "forest_animation.json"
-                "Okyanus" -> "ocean_animation.json"
-                "Çöl" -> "desert_animation.json"
-                "Kutup" -> "arctic_animation.json"
-                else -> "forest_animation.json"
-            }
-            
-            lottieView.setAnimation(animationFile)
-            lottieView.playAnimation()
-        }
-        
-        /**
-         * Karakter animasyonunu oynatır
-         */
-        fun playCharacterAnimation(lottieView: LottieAnimationView, animationType: String) {
-            val animationFile = when (animationType) {
-                "walk" -> "character_walk.json"
-                "jump" -> "character_jump.json"
-                "celebrate" -> "character_celebrate.json"
-                "idle" -> "character_idle.json"
-                else -> "character_idle.json"
-            }
-            
-            lottieView.setAnimation(animationFile)
-            lottieView.playAnimation()
         }
     }
 }

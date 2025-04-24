@@ -85,7 +85,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 1,
                 "Meşe Ağacı",
-                "Panthera onca",
+                "Quercus robur",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_oak_tree,
@@ -97,7 +97,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 2,
                 "Sincap",
-                "Panthera onca",
+                "Sciurus vulgaris",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_squirrel,
@@ -109,7 +109,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 3,
                 "Geyik",
-                "Panthera onca",
+                "Cervus elaphus",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_deer,
@@ -121,7 +121,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 4,
                 "Mantar",
-                "Panthera onca",
+                "Fungi",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_mushroom,
@@ -140,7 +140,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 5,
                 "Yunus",
-                "Panthera onca",
+                "Delphinus delphis",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_dolphin,
@@ -152,7 +152,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 6,
                 "Mercan",
-                "Panthera onca",
+                "Anthozoa",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_coral,
@@ -164,7 +164,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 7,
                 "Deniz Yıldızı",
-                "Panthera onca",
+                "Asteroidea",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_starfish,
@@ -176,7 +176,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 8,
                 "Ahtapot",
-                "Panthera onca",
+                "Octopoda",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_octopus,
@@ -195,7 +195,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 9,
                 "Kaktüs",
-                "Panthera onca",
+                "Cactaceae",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_cactus,
@@ -207,7 +207,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 10,
                 "Çöl Tilkisi",
-                "Panthera onca",
+                "Vulpes zerda",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_desert_fox,
@@ -219,7 +219,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 11,
                 "Akrep",
-                "Panthera onca",
+                "Scorpiones",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_scorpion,
@@ -231,7 +231,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 12,
                 "Deve",
-                "Panthera onca",
+                "Camelus",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_camel,
@@ -250,7 +250,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 13,
                 "Kutup Ayısı",
-                "Panthera onca",
+                "Ursus maritimus",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_polar_bear,
@@ -262,7 +262,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 14,
                 "Penguen",
-                "Panthera onca",
+                "Spheniscidae",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_penguin,
@@ -274,7 +274,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 15,
                 "Fok",
-                "Panthera onca",
+                "Phocidae",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_seal,
@@ -286,7 +286,7 @@ class EcosystemActivity : AppCompatActivity() {
             Species(
                 16,
                 "Ren Geyiği",
-                "Panthera onca",
+                "Rangifer tarandus",
                 "Orman",
                 "Yağmur ormanlarının en güçlü avcısı",
                 R.drawable.species_reindeer,

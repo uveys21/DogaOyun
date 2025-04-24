@@ -3,6 +3,7 @@ package com.dogakasifleri.activities
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -31,27 +32,30 @@ class LoginActivity : AppCompatActivity() {
         tvForgotPassword = findViewById(R.id.tvForgotPassword)
 
         // Giriş butonu tıklama olayı
-        btnLogin.setOnClickListener {
-            // Gerçek uygulamada burada kimlik doğrulama yapılır
-            // Şimdilik doğrudan ana ekrana geçiş yapıyoruz
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-            finish()
+        btnLogin.setOnClickListener {            
+            if (etUsername.text.toString().isNotEmpty() && etPassword.text.toString().isNotEmpty()){
+                // Gerçek uygulamada burada kimlik doğrulama yapılır
+                // Şimdilik doğrudan ana ekrana geçiş yapıyoruz
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+                finish()
+            } else {
+                Toast.makeText(this, "Lütfen tüm alanları doldurunuz.", Toast.LENGTH_SHORT).show()
+            }
         }
 
         // Kayıt ol butonu tıklama olayı
         btnRegister.setOnClickListener {
             // Kayıt ekranına geçiş
-            // Gerçek uygulamada burada kayıt ekranına geçilir
-            // Şimdilik doğrudan karakter oluşturma ekranına geçiyoruz
-            val intent = Intent(this, CharacterCreationActivity::class.java)
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
 
         // Şifremi unuttum tıklama olayı
         tvForgotPassword.setOnClickListener {
             // Şifre sıfırlama işlemi
-            // Bu demo için boş bırakıldı
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
         }
     }
 }

@@ -24,7 +24,7 @@ class EcosystemFragment : Fragment() {
     private lateinit var adapter: SpeciesAdapter
     private lateinit var viewModel: EcosystemViewModel
     private var ecosystem: Ecosystem? = null
-    private var speciesList: List<Species> = listOf()
+    private var speciesList: MutableList<Species> = mutableListOf()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -45,7 +45,7 @@ class EcosystemFragment : Fragment() {
         // RecyclerView ayarları
         recyclerView = view.findViewById(R.id.recyclerViewSpecies)
         recyclerView.layoutManager = GridLayoutManager(context, 2)
-        adapter = SpeciesAdapter(requireContext(), speciesList) { species ->
+        adapter = SpeciesAdapter(speciesList, this@EcosystemFragment) { species ->
             showSpeciesDetails(species)
         }
         recyclerView.adapter = adapter

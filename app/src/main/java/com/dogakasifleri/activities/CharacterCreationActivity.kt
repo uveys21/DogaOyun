@@ -47,12 +47,12 @@ class CharacterCreationActivity : AppCompatActivity() {
     private fun setupAvatarOptions() {
         // Örnek avatar seçenekleri
         val avatarOptions = listOf(
-            CharacterOption(1, "Avatar 1", R.drawable.avatar_1.toString(), "Kaşif Kız"),
-            CharacterOption(2, "Avatar 1", R.drawable.avatar_2.toString(), "Kaşif Erkek"),
-            CharacterOption(3, "Avatar 1", R.drawable.avatar_3.toString(), "Bilim İnsanı Kız"),
-            CharacterOption(4, "Avatar 1", R.drawable.avatar_4.toString(), "Bilim İnsanı Erkek"),
-            CharacterOption(5, "Avatar 1", R.drawable.avatar_5.toString(), "Doğa Koruyucusu Kız"),
-            CharacterOption(6, "Avatar 1", R.drawable.avatar_6.toString(), "Doğa Koruyucusu Erkek")
+            CharacterOption(1, "Kaşif Kız", R.drawable.avatar_1, "Kaşif Kız Avatarı"),
+            CharacterOption(2, "Kaşif Erkek", R.drawable.avatar_2, "Kaşif Erkek Avatarı"),
+            CharacterOption(3, "Bilim İnsanı Kız", R.drawable.avatar_3, "Bilim İnsanı Kız Avatarı"),
+            CharacterOption(4, "Bilim İnsanı Erkek", R.drawable.avatar_4, "Bilim İnsanı Erkek Avatarı"),
+            CharacterOption(5, "Doğa Koruyucusu Kız", R.drawable.avatar_5, "Doğa Koruyucusu Kız Avatarı"),
+            CharacterOption(6, "Doğa Koruyucusu Erkek", R.drawable.avatar_6, "Doğa Koruyucusu Erkek Avatarı")
         )
 
         // Adapter'ı ayarla

@@ -5,13 +5,13 @@ package com.dogakasifleri.models
  */
 data class Species(
     val id: Int,
-    val name: String,
-    val imageResId1: String,
-    val imageResId2: String,
-    val imageResId3: String,
+    val name: String, 
+    val scientificName: String,
+    val type: String,
+    val shortDescription: String,
     val imageResId: String,
     val description: String,
     val facts: String,
-    val ecosystemId: Int,
-    val imageResource: Int
+    val level: Int,
+    val experience: Int
 )

@@ -5,6 +5,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import com.dogakasifleri.R
 import com.dogakasifleri.models.Species
 import com.dogakasifleri.utils.CollectionManager
@@ -19,7 +20,6 @@ class SpeciesDetailActivity : AppCompatActivity() {
     private lateinit var tvSpeciesDescription: TextView
     private lateinit var tvSpeciesFacts: TextView
     private lateinit var btnAddToCollection: Button
-    private lateinit var btnBack: Button
     private lateinit var btnStartQuiz: Button
 
     private var speciesId: Int = 0
@@ -28,13 +28,16 @@ class SpeciesDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_species_detail)
 
+        // Toolbar'ı ayarla
+        val toolbar: Toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
         // UI elemanlarını tanımla
         ivSpeciesImage = findViewById(R.id.ivSpeciesImage)
         tvSpeciesName = findViewById(R.id.tvSpeciesName)
         tvSpeciesDescription = findViewById(R.id.tvSpeciesDescription)
         tvSpeciesFacts = findViewById(R.id.tvSpeciesFacts)
         btnAddToCollection = findViewById(R.id.btnAddToCollection)
-        btnBack = findViewById(R.id.btnBack)
         btnStartQuiz = findViewById(R.id.btnStartQuiz)
 
         // Intent'ten tür bilgilerini al
@@ -52,11 +55,6 @@ class SpeciesDetailActivity : AppCompatActivity() {
         // Koleksiyona ekle butonu tıklama olayı
         btnAddToCollection.setOnClickListener {
             addToCollection()
-        }
-
-        // Geri butonu tıklama olayı
-        btnBack.setOnClickListener {
-            finish()
         }
 
         // Quiz başlat butonu tıklama olayı
@@ -122,5 +120,15 @@ class SpeciesDetailActivity : AppCompatActivity() {
             putExtra("SPECIES_ID", speciesId)
         }
         startActivity(intent)
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }

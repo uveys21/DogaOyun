@@ -1,5 +1,6 @@
 package com.dogakasifleri.activities
 
+import android.content.Context
 import android.os.Bundle
 import android.widget.Button
 import android.widget.RadioButton
@@ -7,6 +8,7 @@ import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import com.dogakasifleri.R
 import com.dogakasifleri.models.Question
 import com.dogakasifleri.utils.AchievementManager
@@ -24,6 +26,7 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var rbAnswer3: RadioButton
     private lateinit var btnSubmit: Button
     private lateinit var btnBack: Button
+    private lateinit var toolbar: Toolbar
 
     private var currentQuestionIndex = 0
     private var correctAnswers = 0
@@ -33,6 +36,10 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
 
+        // Toolbar'ı ayarla
+        toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         // UI elemanlarını tanımla
         tvQuestionNumber = findViewById(R.id.tvQuestionNumber)
         tvQuestion = findViewById(R.id.tvQuestion)
@@ -57,11 +64,17 @@ class QuizActivity : AppCompatActivity() {
             checkAnswer()
         }
 
-        // Geri butonu tıklama olayı
-        btnBack.setOnClickListener {
-            finish()
-        }
+
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    } 
 
     private fun getQuestionsForSpecies(speciesId: Int): List<Question> {
         // Türe göre soruları döndür
@@ -162,7 +175,7 @@ class QuizActivity : AppCompatActivity() {
         val score = (correctAnswers.toFloat() / questions.size) * 100
         val message = "Quiz tamamlandı!\n\nDoğru cevaplar: $correctAnswers/${questions.size}\nPuanınız: ${score.toInt()}%"
         
-        // Başarı durumuna göre rozet ver
+        // Başarı durumuna göre rozet ver        
         if (score >= 80) {
             val achievementManager = AchievementManager(this)
             achievementManager.unlockAchievement("quiz_master")
@@ -178,4 +191,5 @@ class QuizActivity : AppCompatActivity() {
             .setCancelable(false)
             .show()
     }
+    
 }

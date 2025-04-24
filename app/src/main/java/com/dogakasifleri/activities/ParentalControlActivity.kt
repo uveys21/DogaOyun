@@ -1,11 +1,14 @@
 package com.dogakasifleri.activities
 
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Switch
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.dogakasifleri.R
+
 
 /**
  * Ebeveyn Kontrol ekranı - Ebeveyn ayarları ve kontrolleri
@@ -18,13 +21,18 @@ class ParentalControlActivity : AppCompatActivity() {
     private lateinit var switchContentFilter: Switch
     private lateinit var switchAllowQuiz: Switch
     private lateinit var btnSaveSettings: Button
-    private lateinit var btnBack: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_parental_control)
 
+        // Toolbar'ı ayarla
+        val toolbar: androidx.appcompat.widget.Toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         // UI elemanlarını tanımla
+        
         etParentPin = findViewById(R.id.etParentPin)
         switchTimeLimit = findViewById(R.id.switchTimeLimit)
         etDailyTimeLimit = findViewById(R.id.etDailyTimeLimit)
@@ -45,9 +53,13 @@ class ParentalControlActivity : AppCompatActivity() {
         btnSaveSettings.setOnClickListener {
             saveSettings()
         }
+    }
 
-        // Geri butonu tıklama olayı
-        btnBack.setOnClickListener {
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return true
+    }
+     override fun onBackPressed() {
             finish()
         }
     }
@@ -111,4 +123,5 @@ class ParentalControlActivity : AppCompatActivity() {
         // Aktiviteyi kapat
         finish()
     }
+    
 }

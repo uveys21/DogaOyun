@@ -59,7 +59,7 @@ class AchievementsFragment : Fragment() {
         
         // Adapter'ı ayarla
         val adapter = AchievementAdapter(
-            achievements as Context,
+            requireContext(),
             achievements = TODO()
         )
         

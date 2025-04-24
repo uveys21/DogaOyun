@@ -32,13 +32,13 @@ class AchievementAdapter(
     override fun getItemCount(): Int = achievements.size
 
     inner class AchievementViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val ivAchievementIcon: ImageView = itemView.findViewById(R.id.ivAchievementIcon)
+        private val ivAchievementBadge: ImageView = itemView.findViewById(R.id.ivAchievementBadge)
         private val tvAchievementTitle: TextView = itemView.findViewById(R.id.tvAchievementTitle)
         private val tvAchievementDescription: TextView = itemView.findViewById(R.id.tvAchievementDescription)
         private val ivLockStatus: ImageView = itemView.findViewById(R.id.ivLockStatus)
 
         fun bind(achievement: Achievement) {
-            ivAchievementIcon.setImageResource(achievement.iconResId)
+            ivAchievementBadge.setImageResource(achievement.iconResId)
             tvAchievementTitle.text = achievement.title
             tvAchievementDescription.text = achievement.description
             

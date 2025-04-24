@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="180dp"
+    android:viewportWidth="200"
+    android:viewportHeight="180">
+    <!-- Ağaç Çizimi -->
+    <path
+        android:fillColor="@color/forest_green"
+        android:pathData="M100,0 L120,40 L80,40 Z"/> <!-- Üçgen Ağaç -->
+</vector>

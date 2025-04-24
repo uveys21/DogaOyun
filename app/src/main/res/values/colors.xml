@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="primary_light">#C8E6C9</color>
+    <color name="accent">#FF9800</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="forest_green">#2E7D32</color>
+    <color name="ocean_blue">#0288D1</color>
+    <color name="desert_yellow">#FFA000</color>
+    <color name="arctic_blue">#B3E5FC</color>
+
+    <!-- Arkaplan Renkleri -->
+    <color name="colorBackground">#FFE7E4D8</color> <!-- Açık Bej -->
+    <color name="colorPrimaryDark">#1B5E20</color> <!-- Koyu Yeşil -->
+
+    <!-- Metin ve Düğme Renkleri -->
+    <color name="colorSecondary">#FFA000</color> <!-- Turuncu (Düğme için) -->
+
+    <!-- Temel Renkler -->
+    <color name="colorPrimary">#2E7D32</color> <!-- Koyu Yeşil (Toolbar) -->
+    <color name="colorAccent">#FFA000</color> <!-- Vurgu Rengi (Turuncu) -->
+
+    <!-- Ekstra Renkler -->
+    <color name="button_primary_color">#2E7D32</color>
+    <color name="button_secondary_color">#FFA000</color>
+
+    <!-- Mevcut renklere ek olarak -->
+    <color name="avatar_border">#1B5E20</color> <!-- Avatar çerçeve rengi -->
+    <color name="avatar_placeholder_tint">#BDBDBD</color> <!-- Placeholder rengi -->
+
+    <!-- Mevcut renklere ek olarak -->
+    <color name="nav_icon_color">#757575</color> <!-- Varsayılan ikon rengi (gri) -->
+    <color name="nav_selected_icon_color">@color/colorPrimary</color> <!-- Seçili ikon rengi (yeşil) -->
+    <color name="nav_text_color">@color/colorPrimaryDark</color> <!-- Metin rengi -->
+
+
+    <!-- Ek Renkler -->
+    <color name="button_accent">#FF5722</color> <!-- Kırmızımsı Turuncu -->
+
+
+</resources>

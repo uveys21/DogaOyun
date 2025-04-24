@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataExtractionRules>
+    <Rule ruleName="book_data">
+        <Field
+            fieldName="title"
+            description="Kitap Başlığı"
+            type="text"
+            xpath="//book/title"
+            />
+        <Field
+            fieldName="author"
+            description="Yazar Adı"
+            type="text"
+            xpath="//book/author"
+            />
+        <Field
+            fieldName="price"
+            description="Fiyat"
+            type="number"
+            xpath="//book/price"
+            attribute="currency"
+        />
+    </Rule>
+</DataExtractionRules>

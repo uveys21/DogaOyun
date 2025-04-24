@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Yedeklenecek dosya ve veriler -->
+    <include domain="sharedpref" path="user_progress.xml" />
+    <include domain="database" path="game_database.db" />
+    <include domain="file" path="custom_levels/" />
+
+</full-backup-content>

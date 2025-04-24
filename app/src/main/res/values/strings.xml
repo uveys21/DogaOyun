@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doğa Kaşifleri</string>
+    
+    <!-- Common -->
+    <string name="next">İleri</string>
+    <string name="back">Geri</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="ok">Tamam</string>
+    
+    <!-- Login/Register -->
+    <string name="login">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    
+    <!-- Main Menu -->
+    <string name="customize_character">Karakterini Özelleştir</string>
+    <string name="start_game">Oyuna Başla</string>
+    <string name="my_collection">Koleksiyonum</string>
+    <string name="my_achievements">Başarılarım</string>
+    <string name="settings">Ayarlar</string>
+    <string name="parental_controls">Ebeveyn Kontrolleri</string>
+    
+    <!-- Character Creation -->
+    <string name="choose_avatar">Avatarını Seç</string>
+    <string name="choose_name">İsmini Seç</string>
+    <string name="choose_color">Rengini Seç</string>
+    <string name="character_ready">Karakterin Hazır!</string>
+    
+    <!-- Map -->
+    <string name="map_title">Keşif Haritası</string>
+    <string name="choose_ecosystem">Ekosistem Seç</string>
+    
+    <!-- Ecosystems -->
+    <string name="forest">Orman</string>
+    <string name="ocean">Okyanus</string>
+    <string name="desert">Çöl</string>
+    <string name="arctic">Kutuplar</string>
+    
+    <!-- Collection -->
+    <string name="animals">Hayvanlar</string>
+    <string name="plants">Bitkiler</string>
+    <string name="collection_empty">Henüz koleksiyonunda bir şey yok. Keşfe çık ve toplamaya başla!</string>
+    
+    <!-- Achievements -->
+    <string name="achievements_title">Başarılarım</string>
+    <string name="achievement_unlocked">Başarı Kazanıldı!</string>
+    <string name="achievement_locked">Kilitli</string>
+    
+    <!-- Settings -->
+    <string name="sound">Ses</string>
+    <string name="music">Müzik</string>
+    <string name="language">Dil</string>
+    <string name="difficulty">Zorluk</string>
+    <string name="easy">Kolay</string>
+    <string name="medium">Orta</string>
+    <string name="hard">Zor</string>
+    
+    <!-- Parental Controls -->
+    <string name="parental_pin">Ebeveyn PIN</string>
+    <string name="set_pin">PIN Belirle</string>
+    <string name="enter_pin">PIN Gir</string>
+    <string name="screen_time">Ekran Süresi</string>
+    <string name="progress_report">İlerleme Raporu</string>
+    
+    <!-- Mini Games -->
+    <string name="mini_games">Mini Oyunlar</string>
+    <string name="memory_game">Hafıza Oyunu</string>
+    <string name="puzzle_game">Yapboz</string>
+    <string name="quiz_game">Bilgi Yarışması</string>
+    <string name="sorting_game">Sıralama Oyunu</string>
+    <string name="recycling_game">Geri Dönüşüm Oyunu</string>
+    
+    <!-- Quests -->
+    <string name="quests">Görevler</string>
+    <string name="quest_completed">Görev Tamamlandı!</string>
+    <string name="quest_new">Yeni Görev</string>
+    <string name="quest_in_progress">Devam Eden Görev</string>
+
+    <!-- Ekosistem Sayfası -->
+    <string name="ecosystem_forest_title">🌳 Orman Ekosistemi</string>
+    <string name="forest_description">Orman ekosistemi, binlerce canlı türüne ev sahipliği yapar. Ağaçlar, kuşlar, böcekler ve memeliler burada uyum içinde yaşar.</string>
+    <string name="species_list_title">Bu Ekosistemdeki Türler</string>
+
+    <!-- Düğme -->
+    <string name="back_button">Geri Dön</string>
+
+    <!-- Login Ekranı -->
+    <string name="login_title">Hoş Geldiniz! 🌱</string>
+    <string name="username_hint">Kullanıcı Adı</string>
+    <string name="password_hint">Şifre</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="register_prompt">Hesabınız yok mu?</string>
+    <string name="register_button">Kayıt Ol</string>
+
+    <!-- Harita Ekranı -->
+    <string name="map_subtitle">Keşfetmek için bir bölge seçin</string>
+
+    <!-- Karakter Oluşturma Ekranı -->
+    <string name="character_creation_title">🎮 Karakterini Özelleştir</string>
+    <string name="character_creation_subtitle">Eşsiz bir karakter yarat ve maceraya başla!</string>
+    <string name="character_name_hint">Karakter Adı</string>
+    <string name="avatar_selection_title">Avatar Seç</string>
+    <string name="save_character_button">Kaydet ve Başla</string>
+
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_map">Harita</string>
+    <string name="menu_collection">Koleksiyon</string>
+    <string name="menu_achievements">Başarımlar</string>
+    <string name="menu_category_other">Diğer</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_parental_controls">Ebeveyn Kontrolü</string>
+
+    <string name="default_username">Keşfedici Çocuk 🚀</string>
+    <string name="default_email">email@adresiniz.com</string>
+
+    <!-- Uygulama Genel -->
+    <string name="app_slogan">Doğayı Öğren, Keşfet!</string>
+
+    <!-- Tür Detay Ekranı -->
+    <string name="species_name_placeholder">Kırmızı Orman Karıncası</string>
+    <string name="description_title">📖 Tanım</string>
+    <string name="species_description_placeholder">Ormanların temizlik ekibi! Kırmızı karıncalar... (detaylı bilgi)</string>
+    <string name="facts_title">🌟 İlginç Bilgiler</string>
+    <string name="species_facts_placeholder">• Günde 1000 adım atar\n• Yuvaları 1 metre derinlikte</string>
+    <string name="add_to_collection_button">🗂 Koleksiyona Ekle</string>
+    <string name="start_quiz_button">🎯 Bilgi Yarışması</string>
+
+    <string name="no_achievements">Henüz hiç başarı kazanmadın 🥺\nHadi maceraya devam et!</string>
+
+
+</resources>

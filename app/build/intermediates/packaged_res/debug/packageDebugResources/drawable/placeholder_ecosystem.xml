@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Arkaplan (Yeşil ton) -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M0,0h24v24h-24z"/>
+
+    <!-- Ağaç Gövdesi -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M11,14h2v6h-2z"/>
+
+    <!-- Ağaç Taç (Yapraklar) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M7,8h10l-3,6l-3,-6z"/>
+
+    <!-- Bulut -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M19,14a2,2 0 1,1 -0.01,-0.02"/>
+</vector>

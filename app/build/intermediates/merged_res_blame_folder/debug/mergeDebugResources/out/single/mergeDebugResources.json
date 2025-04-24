@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_ecosystem_desert.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_ecosystem_desert.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_ecosystem_forest.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_ecosystem_forest.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_app_logo.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\app_logo.xml"
+    },
+    {
+        "merged": "com.dogakasifleri.app-debug-54:/layout_activity_collection.xml.flat",
+        "source": "com.dogakasifleri.app-main-56:/layout/activity_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_quiz_master.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_quiz_master.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_5.png.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_5.png"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_button_blue.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_button_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_button_purple.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_button_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_collector.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_collector.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_6.png.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_6.png"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_1.png.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_1.png"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_map.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\menu_drawer_menu.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\menu\\drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_achievements.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_achievements.xml"
+    },
+    {
+        "merged": "com.dogakasifleri.app-debug-54:/drawable_error_image.png.flat",
+        "source": "com.dogakasifleri.app-main-56:/drawable/error_image.png"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_arctic_expert.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_arctic_expert.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_button_green.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_button_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "com.dogakasifleri.app-debug-54:/drawable_placeholder_image.png.flat",
+        "source": "com.dogakasifleri.app-main-56:/drawable/placeholder_image.png"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_button_accent.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\button_accent.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_achievements.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_achievements.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_item_collection.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\item_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_button_secondary.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\button_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_locked.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_locked.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_2.png.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_2.png"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_explorer.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_explorer.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_species_default.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\species_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_ecosystem.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_ecosystem.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_button_orange.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_button_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_item_character.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\item_character.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_collection.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_placeholder_ecosystem.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\placeholder_ecosystem.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_parental_controls.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_parental_controls.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_card_white.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_card_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_3.png.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_3.png"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_character_creation.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_character_creation.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_forest_expert.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_forest_expert.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_item_achievement.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\item_achievement.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_button_primary.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_background.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_achievement_default.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_achievement_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_fragment_achievements.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\fragment_achievements.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_banner_forest.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\banner_forest.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_desert_expert.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_desert_expert.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_species_detail.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_species_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_placeholder.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_4.png.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_4.png"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_ecosystem_ocean.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_ecosystem_ocean.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_master_collector.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_master_collector.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_ocean_expert.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_ocean_expert.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_item_ecosystem.xml.flat",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\item_ecosystem.xml"
+    }
+]

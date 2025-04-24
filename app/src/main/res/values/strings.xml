@@ -16,6 +16,7 @@
     <string name="password">Şifre</string>
     <string name="confirm_password">Şifreyi Onayla</string>
     <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="reset_password_button">Şifreyi Sıfırla</string>
     
     <!-- Main Menu -->
     <string name="customize_character">Karakterini Özelleştir</string>
@@ -84,6 +85,9 @@
     <!-- Ekosistem Sayfası -->
     <string name="ecosystem_forest_title">🌳 Orman Ekosistemi</string>
     <string name="forest_description">Orman ekosistemi, binlerce canlı türüne ev sahipliği yapar. Ağaçlar, kuşlar, böcekler ve memeliler burada uyum içinde yaşar.</string>
+    <string name="ocean_description">Okyanus ekosistemi, dünyanın en büyük yaşam alanıdır. Mavi balinalar, mercanlar ve daha birçok canlı burada yaşar.</string>
+    <string name="desert_description">Çöl ekosistemi, suyun kıt olduğu zorlu bir yaşam alanıdır. Kaktüsler, akrepler ve develer gibi canlılar burada hayatta kalmak için adapte olmuşlardır.</string>
+    <string name="arctic_description">Kutuplar ekosistemi, dünyanın en soğuk yeridir. Kutup ayıları, penguenler ve foklar gibi soğuğa dayanıklı canlılar burada yaşar.</string>
     <string name="species_list_title">Bu Ekosistemdeki Türler</string>
 
     <!-- Düğme -->

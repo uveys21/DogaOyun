@@ -1,5 +1,6 @@
 package com.dogakasifleri.adapters
 
+import android.content.Context
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.dogakasifleri.R
 import com.dogakasifleri.models.CollectionItem
@@ -17,7 +17,7 @@ import com.dogakasifleri.models.CollectionItem
  * CollectionItem modelini kullanır.
  */
 class CollectionAdapter(
-    private val fragment: Fragment,
+    private val context: Context,
     private var items: MutableList<CollectionItem>,
     private val onItemClick: (CollectionItem) -> Unit
 ) : RecyclerView.Adapter<CollectionAdapter.CollectionViewHolder>() {
@@ -49,7 +49,7 @@ class CollectionAdapter(
             // Resim Yükleme (Glide ile)
             val imageResource = getImageResourceIdFromString(item.imageUrl)
             if (imageResource != 0) {
-                Glide.with(fragment)
+                Glide.with(context)
                     .load(imageResource) // Drawable ID'si yüklendi
                     .placeholder(R.drawable.placeholder_image) // Placeholder resmi
                     .error(R.drawable.error_image) // Hata resmi
@@ -70,7 +70,7 @@ class CollectionAdapter(
         private fun getImageResourceIdFromString(imageName: String?): Int {
             if (imageName.isNullOrBlank()) return 0
             val cleanName = imageName.substringBeforeLast(".")
-            val resourceId = fragment.requireContext().resources.getIdentifier(cleanName, "drawable", fragment.requireContext().packageName)
+            val resourceId = context.resources.getIdentifier(cleanName, "drawable", context.packageName)
             return resourceId
         }
     }

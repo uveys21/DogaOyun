@@ -23,8 +23,8 @@
             android:id="@+id/ivLockStatus"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/ic_locked" />
+            android:layout_gravity="center_vertical"            
+            android:src="@drawable/achievement_locked" />
 
           <LinearLayout
             android:layout_width="match_parent"

@@ -63,7 +63,7 @@ class CollectionActivity : AppCompatActivity() {
         // Adapter'ı BAŞLANGIÇTA BOŞ liste ile oluşturun.
         // CollectionAdapter'ın CollectionItem listesi ve bir lambda beklediğini varsayıyoruz.
         // Ayrıca adapter'ın veriyi güncellemek için bir metodu olmalı (örn: updateData)
-        adapter = CollectionAdapter(this, currentCollectionItems) { item ->
+        adapter = CollectionAdapter(this, currentCollectionItems) { item -> // CollectionAdapter'a this parametresi gönderildi
             showItemDetails(item)
         }
         recyclerView.adapter = adapter

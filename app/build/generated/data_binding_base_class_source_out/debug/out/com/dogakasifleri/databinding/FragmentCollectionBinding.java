@@ -4,10 +4,10 @@ package com.dogakasifleri.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dogakasifleri.R;
@@ -15,34 +15,34 @@ import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
-public final class ItemCollectionBinding implements ViewBinding {
+public final class FragmentCollectionBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView ivCollectionImage;
+  public final RecyclerView rvCollection;
 
-  private ItemCollectionBinding(@NonNull LinearLayout rootView,
-      @NonNull ImageView ivCollectionImage) {
+  private FragmentCollectionBinding(@NonNull ConstraintLayout rootView,
+      @NonNull RecyclerView rvCollection) {
     this.rootView = rootView;
-    this.ivCollectionImage = ivCollectionImage;
+    this.rvCollection = rvCollection;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
   @NonNull
-  public static ItemCollectionBinding inflate(@NonNull LayoutInflater inflater) {
+  public static FragmentCollectionBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, null, false);
   }
 
   @NonNull
-  public static ItemCollectionBinding inflate(@NonNull LayoutInflater inflater,
+  public static FragmentCollectionBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.item_collection, parent, false);
+    View root = inflater.inflate(R.layout.fragment_collection, parent, false);
     if (attachToParent) {
       parent.addView(root);
     }
@@ -50,18 +50,18 @@ public final class ItemCollectionBinding implements ViewBinding {
   }
 
   @NonNull
-  public static ItemCollectionBinding bind(@NonNull View rootView) {
+  public static FragmentCollectionBinding bind(@NonNull View rootView) {
     // The body of this method is generated in a way you would not otherwise write.
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.ivCollectionImage;
-      ImageView ivCollectionImage = ViewBindings.findChildViewById(rootView, id);
-      if (ivCollectionImage == null) {
+      id = R.id.rvCollection;
+      RecyclerView rvCollection = ViewBindings.findChildViewById(rootView, id);
+      if (rvCollection == null) {
         break missingId;
       }
 
-      return new ItemCollectionBinding((LinearLayout) rootView, ivCollectionImage);
+      return new FragmentCollectionBinding((ConstraintLayout) rootView, rvCollection);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

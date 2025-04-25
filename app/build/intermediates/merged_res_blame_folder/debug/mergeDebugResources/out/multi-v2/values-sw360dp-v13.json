@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dogakasifleri.app-mergeDebugResources-54:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/user/.gradle/caches/8.11.1/transforms/4cb1679e30b12058f4c88619904a747f/transformed/preference-1.2.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}

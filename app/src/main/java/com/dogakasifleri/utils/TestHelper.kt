@@ -16,11 +16,11 @@ class TestHelper {
          */
         fun checkAnimationFiles(context: Context): Boolean {
             val animationFiles = listOf(
-                "splash_animation.json",
-                "forest_animation.json",
-                "ocean_animation.json",
-                "desert_animation.json",
-                "arctic_animation.json"
+                "raw/splash_animation.json",
+                "raw/forest_animation.json",
+                "raw/ocean_animation.json",
+                "raw/desert_animation.json",
+                "raw/arctic_animation.json"
             )
 
             var allFilesExist = true

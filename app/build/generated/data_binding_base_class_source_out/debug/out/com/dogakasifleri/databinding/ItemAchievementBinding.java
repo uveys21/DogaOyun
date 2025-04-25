@@ -24,6 +24,9 @@ public final class ItemAchievementBinding implements ViewBinding {
   public final ImageView ivAchievementBadge;
 
   @NonNull
+  public final ImageView ivLockStatus;
+
+  @NonNull
   public final TextView tvAchievementDescription;
 
   @NonNull
@@ -33,10 +36,11 @@ public final class ItemAchievementBinding implements ViewBinding {
   public final TextView tvAchievementTitle;
 
   private ItemAchievementBinding(@NonNull CardView rootView, @NonNull ImageView ivAchievementBadge,
-      @NonNull TextView tvAchievementDescription, @NonNull TextView tvAchievementStatus,
-      @NonNull TextView tvAchievementTitle) {
+      @NonNull ImageView ivLockStatus, @NonNull TextView tvAchievementDescription,
+      @NonNull TextView tvAchievementStatus, @NonNull TextView tvAchievementTitle) {
     this.rootView = rootView;
     this.ivAchievementBadge = ivAchievementBadge;
+    this.ivLockStatus = ivLockStatus;
     this.tvAchievementDescription = tvAchievementDescription;
     this.tvAchievementStatus = tvAchievementStatus;
     this.tvAchievementTitle = tvAchievementTitle;
@@ -75,6 +79,12 @@ public final class ItemAchievementBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.ivLockStatus;
+      ImageView ivLockStatus = ViewBindings.findChildViewById(rootView, id);
+      if (ivLockStatus == null) {
+        break missingId;
+      }
+
       id = R.id.tvAchievementDescription;
       TextView tvAchievementDescription = ViewBindings.findChildViewById(rootView, id);
       if (tvAchievementDescription == null) {
@@ -93,7 +103,7 @@ public final class ItemAchievementBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemAchievementBinding((CardView) rootView, ivAchievementBadge,
+      return new ItemAchievementBinding((CardView) rootView, ivAchievementBadge, ivLockStatus,
           tvAchievementDescription, tvAchievementStatus, tvAchievementTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);

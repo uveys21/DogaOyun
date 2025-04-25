@@ -4,12 +4,10 @@ package com.dogakasifleri.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dogakasifleri.R;
@@ -19,33 +17,19 @@ import java.lang.String;
 
 public final class ActivityMapBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final CoordinatorLayout rootView;
 
   @NonNull
-  public final Button btnBack;
+  public final Toolbar toolbar;
 
-  @NonNull
-  public final RecyclerView rvEcosystems;
-
-  @NonNull
-  public final TextView tvMapSubtitle;
-
-  @NonNull
-  public final TextView tvMapTitle;
-
-  private ActivityMapBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnBack,
-      @NonNull RecyclerView rvEcosystems, @NonNull TextView tvMapSubtitle,
-      @NonNull TextView tvMapTitle) {
+  private ActivityMapBinding(@NonNull CoordinatorLayout rootView, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
-    this.btnBack = btnBack;
-    this.rvEcosystems = rvEcosystems;
-    this.tvMapSubtitle = tvMapSubtitle;
-    this.tvMapTitle = tvMapTitle;
+    this.toolbar = toolbar;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public CoordinatorLayout getRoot() {
     return rootView;
   }
 
@@ -70,32 +54,13 @@ public final class ActivityMapBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnBack;
-      Button btnBack = ViewBindings.findChildViewById(rootView, id);
-      if (btnBack == null) {
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
         break missingId;
       }
 
-      id = R.id.rvEcosystems;
-      RecyclerView rvEcosystems = ViewBindings.findChildViewById(rootView, id);
-      if (rvEcosystems == null) {
-        break missingId;
-      }
-
-      id = R.id.tvMapSubtitle;
-      TextView tvMapSubtitle = ViewBindings.findChildViewById(rootView, id);
-      if (tvMapSubtitle == null) {
-        break missingId;
-      }
-
-      id = R.id.tvMapTitle;
-      TextView tvMapTitle = ViewBindings.findChildViewById(rootView, id);
-      if (tvMapTitle == null) {
-        break missingId;
-      }
-
-      return new ActivityMapBinding((ConstraintLayout) rootView, btnBack, rvEcosystems,
-          tvMapSubtitle, tvMapTitle);
+      return new ActivityMapBinding((CoordinatorLayout) rootView, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

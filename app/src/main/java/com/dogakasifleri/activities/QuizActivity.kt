@@ -13,11 +13,9 @@ import com.dogakasifleri.R
 import com.dogakasifleri.models.Question
 import com.dogakasifleri.utils.AchievementManager
 
-/**
- * Quiz ekranı - Türlerle ilgili bilgi testleri
- */
 class QuizActivity : AppCompatActivity() {
 
+    // UI Components
     private lateinit var tvQuestionNumber: TextView
     private lateinit var tvQuestion: TextView
     private lateinit var rgAnswers: RadioGroup
@@ -26,8 +24,8 @@ class QuizActivity : AppCompatActivity() {
     private lateinit var rbAnswer3: RadioButton
     private lateinit var btnSubmit: Button
     private lateinit var btnBack: Button
-    private lateinit var toolbar: Toolbar
 
+    // Quiz Variables
     private var currentQuestionIndex = 0
     private var correctAnswers = 0
     private lateinit var questions: List<Question>
@@ -36,11 +34,12 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
 
-        // Toolbar'ı ayarla
-        toolbar = findViewById(R.id.toolbar)
+        // Toolbar Setup
+        val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        // UI elemanlarını tanımla
+
+        // Initialize UI Components
         tvQuestionNumber = findViewById(R.id.tvQuestionNumber)
         tvQuestion = findViewById(R.id.tvQuestion)
         rgAnswers = findViewById(R.id.rgAnswers)
@@ -50,31 +49,27 @@ class QuizActivity : AppCompatActivity() {
         btnSubmit = findViewById(R.id.btnSubmit)
         btnBack = findViewById(R.id.btnBack)
 
-        // Intent'ten tür ID'sini al
+        // Get species ID from intent
         val speciesId = intent.getIntExtra("SPECIES_ID", 0)
 
-        // Türe göre soruları hazırla
+        // Load questions and start quiz
         questions = getQuestionsForSpecies(speciesId)
-
-        // İlk soruyu göster
         showQuestion(currentQuestionIndex)
 
-        // Cevap gönder butonu tıklama olayı
-        btnSubmit.setOnClickListener {
-            checkAnswer()
-        }
+        // Button Click Listeners
+        btnSubmit.setOnClickListener { checkAnswer() }
+        btnBack.setOnClickListener { finish() }
+    }
 
-
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return true
     }
 
     override fun onBackPressed() {
         super.onBackPressed()
     }
 
-    override fun onSupportNavigateUp(): Boolean {
-        onBackPressed()
-        return true
-    } 
 
     private fun getQuestionsForSpecies(speciesId: Int): List<Question> {
         // Türe göre soruları döndür

@@ -135,6 +135,9 @@
     <string name="start_quiz_button">🎯 Bilgi Yarışması</string>
 
     <string name="no_achievements">Henüz hiç başarı kazanmadın 🥺\nHadi maceraya devam et!</string>
+    <string name="forgot_password_title">Parolamı Unuttum</string>
+    <string name="navigation_drawer_open">Navigasyon Açık</string>
+    <string name="navigation_drawer_close">Navigasyon Kapalı</string>
 
 
 </resources>

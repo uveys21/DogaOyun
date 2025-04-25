@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 loadFragment(MainMenuFragment())
             }
             R.id.nav_map -> {
-                val intent = Intent(this, MapActivity::class)
+                val intent = Intent(this, MapActivity::class.java)
                 startActivity(intent)
             }
             R.id.nav_collection -> {
@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_parental_controls -> {
                 // Ebeveyn kontrolleri için PIN doğrulama ekranı
-                val intent = Intent(this, ParentalControlActivity::class)
+                val intent = Intent(this, ParentalControlActivity::class.java)
                 startActivity(intent)
             }
         }

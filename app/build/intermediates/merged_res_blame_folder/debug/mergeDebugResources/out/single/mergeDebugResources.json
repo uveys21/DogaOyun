@@ -1,298 +1,434 @@
 [
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_settings.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_settings.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_ecosystem_desert.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_ecosystem_desert.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_ecosystem_forest.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_ecosystem_forest.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_button_primary.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/button_primary.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\xml\\backup_rules.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_oak_tree.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_oak_tree.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_unlocked.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_unlocked.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_app_logo.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\app_logo.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_cactus.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_cactus.xml"
     },
     {
-        "merged": "com.dogakasifleri.app-debug-54:/layout_activity_collection.xml.flat",
-        "source": "com.dogakasifleri.app-main-56:/layout/activity_collection.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_quiz_master.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_quiz_master.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_temp.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/temp.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_5.png.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_5.png"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_error_image.png.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/error_image.png"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_button_blue.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_button_blue.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_quiz_master.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_quiz_master.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\anim_fade_in.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\anim\\fade_in.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_avatar_2.png.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/avatar_2.png"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_button_purple.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_button_purple.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_app_logo.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/app_logo.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_squirrel.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_squirrel.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_collector.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_collector.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_6.png.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_6.png"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_banner_arctic.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/banner_arctic.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_1.png.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_1.png"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_collection.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_collection.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_map.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_map.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/xml_backup_rules.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\menu_drawer_menu.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\menu\\drawer_menu.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_achievement_default.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_achievement_default.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_achievements.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_achievements.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_settings.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.dogakasifleri.app-debug-54:/drawable_error_image.png.flat",
-        "source": "com.dogakasifleri.app-main-56:/drawable/error_image.png"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_banner_desert.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/banner_desert.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_arctic_expert.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_arctic_expert.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_settings.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_settings.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_bg_button_purple.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/bg_button_purple.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_button_green.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_button_green.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_avatar_3.png.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/avatar_3.png"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_main.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_bg_button_orange.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/bg_button_orange.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_splash.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.dogakasifleri.app-debug-54:/drawable_placeholder_image.png.flat",
-        "source": "com.dogakasifleri.app-main-56:/drawable/placeholder_image.png"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_button_accent.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\button_accent.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_bg_button_blue.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/bg_button_blue.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_achievements.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_achievements.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_splash.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_item_collection.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\item_collection.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_starfish.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_starfish.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_button_secondary.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\button_secondary.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/anim_fade_in.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/anim/fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_login.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_avatar_4.png.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/avatar_4.png"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\anim_fade_out.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\anim\\fade_out.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_avatar_placeholder.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/avatar_placeholder.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_locked.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_locked.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_coral.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_coral.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_2.png.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_2.png"
+        "merged": "com.dogakasifleri.app-debug-56:/layout_item_collection.xml.flat",
+        "source": "com.dogakasifleri.app-main-58:/layout/item_collection.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_explorer.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_explorer.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_achievements.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_achievements.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_bg_button_green.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/bg_button_green.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_species_default.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\species_default.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_bg_ecosystem_ocean.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/bg_ecosystem_ocean.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_ecosystem.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_ecosystem.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_locked.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_locked.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\xml\\data_extraction_rules.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_item_species.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_species.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_seal.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_seal.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_button_orange.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_button_orange.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_button_accent.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/button_accent.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_item_character.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\item_character.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_bg_ecosystem_forest.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/bg_ecosystem_forest.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_avatar_1.png.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/avatar_1.png"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_collection.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_collection.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_locked.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_locked.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_placeholder_ecosystem.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\placeholder_ecosystem.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_forgot_password.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_parental_controls.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_parental_controls.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_polar_bear.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_polar_bear.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_card_white.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_card_white.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_collector.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_collector.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_3.png.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_3.png"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_banner_ocean.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/banner_ocean.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_character_creation.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_character_creation.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_collection.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_collection.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_home.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_forest_expert.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_forest_expert.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_forest_expert.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_forest_expert.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_item_achievement.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_achievement.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_item_achievement.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\item_achievement.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_map.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_map.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_map.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_map.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_button_primary.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\button_primary.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_penguin.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_penguin.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_background.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_background.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_desert_fox.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_desert_fox.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_nav_header.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\nav_header.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_ic_achievement_default.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\ic_achievement_default.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_item_menu.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_menu.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_fragment_achievements.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\fragment_achievements.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_character_creation.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_character_creation.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_button_secondary.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/button_secondary.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_reindeer.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_reindeer.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_banner_forest.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\banner_forest.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_main.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_desert_expert.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_desert_expert.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_dolphin.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_dolphin.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_activity_species_detail.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\activity_species_detail.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_placeholder.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_placeholder.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_fragment_ecosystem.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/fragment_ecosystem.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_avatar_4.png.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\avatar_4.png"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/anim_fade_out.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/anim/fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_bg_ecosystem_ocean.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\bg_ecosystem_ocean.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_avatar_6.png.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/avatar_6.png"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_master_collector.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_master_collector.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_species_detail.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_species_detail.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_deer.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_deer.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\drawable_achievement_ocean_expert.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\drawable\\achievement_ocean_expert.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_register.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_item_character.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_character.xml"
     },
     {
-        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-debug-54:\\layout_item_ecosystem.xml.flat",
-        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-56:\\layout\\item_ecosystem.xml"
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_nav_header.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/nav_header.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_arctic_expert.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_arctic_expert.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_fragment_collection.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/fragment_collection.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_octopus.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_octopus.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_map.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_map.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_fragment_achievements.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/fragment_achievements.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_parental_controls.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_parental_controls.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_ecosystem.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_ecosystem.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_ocean_expert.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_ocean_expert.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_master_collector.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_master_collector.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_item_ecosystem.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_ecosystem.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_login.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_banner_forest.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/banner_forest.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_achievements.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_achievements.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_explorer.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_explorer.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/menu_drawer_menu.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_achievement_desert_expert.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/achievement_desert_expert.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_placeholder_ecosystem.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/placeholder_ecosystem.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_quiz.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_bg_card_white.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/bg_card_white.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_camel.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_camel.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_item_collection.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_collection.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_avatar_background.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/avatar_background.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_mushroom.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_mushroom.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/xml_preferences.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_home.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_scorpion.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_scorpion.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/layout_activity_parental_control.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_parental_control.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_avatar_5.png.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/avatar_5.png"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_ic_back.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_species_default.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/species_default.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_bg_ecosystem_desert.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/bg_ecosystem_desert.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-debug-56:/drawable_placeholder_image.png.flat",
+        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/drawable/placeholder_image.png"
     }
 ]

@@ -17,10 +17,11 @@ data class CollectionItem(
     val rarity: String, // Common, Uncommon, Rare, Epic, Legendary
     val referenceId: Int, // Animal veya Plant ID'si
     val isFavorite: Boolean = false,
+    val speciesId: Int,
     val notes: String = "",
     val tags: List<String> = listOf()
 ) : Serializable {
-    
+
     /**
      * Koleksiyon öğesinin nadirlik seviyesine göre renk kodunu döndürür
      */
@@ -34,7 +35,7 @@ data class CollectionItem(
             else -> "#A0A0A0"
         }
     }
-    
+
     /**
      * Koleksiyon öğesinin tipini Türkçe olarak döndürür
      */
@@ -49,7 +50,7 @@ data class CollectionItem(
             else -> type
         }
     }
-    
+
     /**
      * Koleksiyon öğesinin keşif tarihini formatlanmış olarak döndürür
      */
@@ -58,7 +59,7 @@ data class CollectionItem(
         val format = java.text.SimpleDateFormat("dd.MM.yyyy", java.util.Locale.getDefault())
         return format.format(date)
     }
-    
+
     /**
      * Koleksiyon öğesinin ekosistem tipine göre arka plan resmini döndürür
      */
@@ -71,7 +72,7 @@ data class CollectionItem(
             else -> "bg_ecosystem_forest.xml"
         }
     }
-    
+
     /**
      * Koleksiyon öğesinin nadirlik seviyesini Türkçe olarak döndürür
      */
@@ -85,7 +86,7 @@ data class CollectionItem(
             else -> rarity
         }
     }
-    
+
     /**
      * Koleksiyon öğesinin etiketlerini formatlanmış olarak döndürür
      */

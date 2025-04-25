@@ -4,7 +4,7 @@
             "outputFile": "com.dogakasifleri.test.app-mergeDebugAndroidTestResources-3:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\uveys\\.gradle\\caches\\8.11.1\\transforms\\6443acd362219d5a6c7db7ad0575bb5a\\transformed\\core-1.5.0\\res\\values\\values.xml",
+                    "source": "/home/user/.gradle/caches/8.11.1/transforms/481c8b99578f17585aab7f6b668c9159/transformed/core-1.5.0/res/values/values.xml",
                     "from": {
                         "startLines": "4,11",
                         "startColumns": "0,0",

@@ -1,6 +1,5 @@
 package com.dogakasifleri.adapters
 
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,8 +13,7 @@ import com.dogakasifleri.models.Species
  * Tür Adapter - RecyclerView'da türleri göstermek için kullanılır
  */
 class SpeciesAdapter(
-    private val fragment: Fragment,
-    private var species: MutableList<Species>,
+    private var species: List<Species>,
     private val onItemClick: (Species) -> Unit
 ) : RecyclerView.Adapter<SpeciesAdapter.SpeciesViewHolder>() {
 
@@ -52,8 +50,7 @@ class SpeciesAdapter(
      * Adapter'ın listesini yeni verilerle günceller.
      */
     fun updateSpecies(newSpecies: List<Species>) {
-        species.clear()
-        species.addAll(newSpecies)
+        species = newSpecies
         notifyDataSetChanged()
     }
 }

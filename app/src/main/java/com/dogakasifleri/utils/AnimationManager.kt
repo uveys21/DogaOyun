@@ -48,11 +48,11 @@ class AnimationManager {
          */
         fun getEcosystemAnimation(ecosystemType: String): String {
             return when (ecosystemType.lowercase()) {
-                "orman" -> "forest_animation.json"
-                "okyanus" -> "ocean_animation.json"
-                "çöl" -> "desert_animation.json"
-                "kutuplar" -> "arctic_animation.json"
-                else -> "forest_animation.json" // Varsayılan olarak orman animasyonu
+                "orman" -> "raw/forest_animation.json"
+                "okyanus" -> "raw/ocean_animation.json"
+                "çöl" -> "raw/desert_animation.json"
+                "kutuplar" -> "raw/arctic_animation.json"
+                else -> "raw/forest_animation.json" // Varsayılan olarak orman animasyonu
             }
         }
         
@@ -69,7 +69,7 @@ class AnimationManager {
             loadAnimation(
                 context,
                 animationView,
-                "splash_animation.json",
+                "raw/splash_animation.json",
                 loop = false,
                 autoPlay = true
             )

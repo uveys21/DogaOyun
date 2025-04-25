@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -25,13 +26,13 @@ public final class ActivitySpeciesDetailBinding implements ViewBinding {
   public final Button btnAddToCollection;
 
   @NonNull
-  public final Button btnBack;
-
-  @NonNull
   public final Button btnStartQuiz;
 
   @NonNull
   public final ImageView ivSpeciesImage;
+
+  @NonNull
+  public final Toolbar toolbar;
 
   @NonNull
   public final TextView tvDescriptionTitle;
@@ -49,15 +50,16 @@ public final class ActivitySpeciesDetailBinding implements ViewBinding {
   public final TextView tvSpeciesName;
 
   private ActivitySpeciesDetailBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnAddToCollection, @NonNull Button btnBack, @NonNull Button btnStartQuiz,
-      @NonNull ImageView ivSpeciesImage, @NonNull TextView tvDescriptionTitle,
-      @NonNull TextView tvFactsTitle, @NonNull TextView tvSpeciesDescription,
-      @NonNull TextView tvSpeciesFacts, @NonNull TextView tvSpeciesName) {
+      @NonNull Button btnAddToCollection, @NonNull Button btnStartQuiz,
+      @NonNull ImageView ivSpeciesImage, @NonNull Toolbar toolbar,
+      @NonNull TextView tvDescriptionTitle, @NonNull TextView tvFactsTitle,
+      @NonNull TextView tvSpeciesDescription, @NonNull TextView tvSpeciesFacts,
+      @NonNull TextView tvSpeciesName) {
     this.rootView = rootView;
     this.btnAddToCollection = btnAddToCollection;
-    this.btnBack = btnBack;
     this.btnStartQuiz = btnStartQuiz;
     this.ivSpeciesImage = ivSpeciesImage;
+    this.toolbar = toolbar;
     this.tvDescriptionTitle = tvDescriptionTitle;
     this.tvFactsTitle = tvFactsTitle;
     this.tvSpeciesDescription = tvSpeciesDescription;
@@ -98,12 +100,6 @@ public final class ActivitySpeciesDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnBack;
-      Button btnBack = ViewBindings.findChildViewById(rootView, id);
-      if (btnBack == null) {
-        break missingId;
-      }
-
       id = R.id.btnStartQuiz;
       Button btnStartQuiz = ViewBindings.findChildViewById(rootView, id);
       if (btnStartQuiz == null) {
@@ -113,6 +109,12 @@ public final class ActivitySpeciesDetailBinding implements ViewBinding {
       id = R.id.ivSpeciesImage;
       ImageView ivSpeciesImage = ViewBindings.findChildViewById(rootView, id);
       if (ivSpeciesImage == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
         break missingId;
       }
 
@@ -147,7 +149,7 @@ public final class ActivitySpeciesDetailBinding implements ViewBinding {
       }
 
       return new ActivitySpeciesDetailBinding((ConstraintLayout) rootView, btnAddToCollection,
-          btnBack, btnStartQuiz, ivSpeciesImage, tvDescriptionTitle, tvFactsTitle,
+          btnStartQuiz, ivSpeciesImage, toolbar, tvDescriptionTitle, tvFactsTitle,
           tvSpeciesDescription, tvSpeciesFacts, tvSpeciesName);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -5,11 +5,11 @@ package com.dogakasifleri.models
  */
 data class Species(
     val id: Int,
-    val name: String, 
+    val name: String,
     val scientificName: String,
     val type: String,
     val shortDescription: String,
-    val imageResId: String,
+    val imageResId: Int,
     val description: String,
     val facts: String,
     val level: Int,

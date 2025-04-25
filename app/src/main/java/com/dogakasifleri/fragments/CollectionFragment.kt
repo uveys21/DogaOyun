@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dogakasifleri.R
 import com.dogakasifleri.adapters.CollectionAdapter
+import com.dogakasifleri.models.CollectionItem
 import com.dogakasifleri.models.Species
 import com.dogakasifleri.utils.CollectionManager
 
@@ -44,30 +45,28 @@ class CollectionFragment : Fragment() {
     private fun loadCollection() {
         // Koleksiyon yöneticisini oluştur
         val collectionManager = CollectionManager(requireContext())
-        
-        // Koleksiyondaki türleri al
-        val collectedSpeciesIds = collectionManager.getCollectedSpecies()
-        
+
+        // Koleksiyondaki CollectionItem'ları al
+        val collectedItems = collectionManager.getCollectedSpecies()
+
         // Tüm türleri al
         val allSpecies = getAllSpecies()
-        
-        // Koleksiyondaki türleri filtrele
-        val collectedSpecies = allSpecies.filter { it.id in collectedSpeciesIds }
-        
+
         // Adapter'ı ayarla
-        val adapter = CollectionAdapter(this@CollectionFragment, collectedSpecies) { species ->
+        val adapter = CollectionAdapter(requireContext(), collectedItems) { collectionItem ->
             // Tür seçildiğinde detay ekranını aç
-            openSpeciesDetail(species)
+            openSpeciesDetail(collectionItem)
+
         }
 
         // RecyclerView'ı ayarla
-        rvCollection.layoutManager = GridLayoutManager(context, 2)
+        rvCollection.layoutManager = GridLayoutManager(requireContext(), 2)
         rvCollection.adapter = adapter
     }
 
-    private fun getAllSpecies(): List<Species> {
+    private fun getAllSpecies(): MutableList<Species> {
         // Tüm türleri döndür
-        return listOf(
+        return mutableListOf(
             // Orman türleri
             Species(
                 1,
@@ -117,7 +116,7 @@ class CollectionFragment : Fragment() {
                 1,
                 0
             ),
-            
+
             // Okyanus türleri
             Species(
                 5,
@@ -167,7 +166,7 @@ class CollectionFragment : Fragment() {
                 1,
                 0
             ),
-            
+
             // Çöl türleri
             Species(
                 9,
@@ -217,7 +216,7 @@ class CollectionFragment : Fragment() {
                 1,
                 0
             ),
-            
+
             // Kutup türleri
             Species(
                 13,
@@ -265,19 +264,24 @@ class CollectionFragment : Fragment() {
                 "Ren geyikleri, kutup bölgelerinde yaşayan ve hem erkekleri hem de dişileri boynuz taşıyan geyiklerdir.",
                 "Keskin görüşe sahiptir ve yüksek yerlerde yaşar.",
                 1,
-                0
-            )
+                0,
+
+                ),
         )
     }
 
-    private fun openSpeciesDetail(species: Species) {
+    private fun openSpeciesDetail(collectionItem: CollectionItem) {
         // Tür detay ekranını aç
-        val intent = android.content.Intent(activity, com.dogakasifleri.activities.SpeciesDetailActivity::class.java).apply {
-            putExtra("SPECIES_ID", species.id)
-            putExtra("SPECIES_NAME", species.name)
-            putExtra("SPECIES_IMAGE", species.imageResId)
-            putExtra("SPECIES_DESCRIPTION", species.description)
+        val selectedSpecies = getAllSpecies().find { it.id == collectionItem.speciesId }
+        val intent = android.content.Intent(requireContext(), com.dogakasifleri.activities.SpeciesDetailActivity::class.java)
+        if (selectedSpecies != null){
+            intent.putExtra("SPECIES_ID", selectedSpecies.id)
+            intent.putExtra("SPECIES_NAME", selectedSpecies.name)
+            intent.putExtra("SPECIES_IMAGE", selectedSpecies.imageResId)
+            intent.putExtra("SPECIES_DESCRIPTION", selectedSpecies.description)
         }
+
         startActivity(intent)
     }
+
 }

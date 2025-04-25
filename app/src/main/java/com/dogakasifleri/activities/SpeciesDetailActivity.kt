@@ -1,5 +1,6 @@
 package com.dogakasifleri.activities
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
@@ -45,6 +46,8 @@ class SpeciesDetailActivity : AppCompatActivity() {
         val speciesName = intent.getStringExtra("SPECIES_NAME") ?: "Tür"
         val speciesImage = intent.getIntExtra("SPECIES_IMAGE", R.drawable.species_default)
         val speciesDescription = intent.getStringExtra("SPECIES_DESCRIPTION") ?: "Açıklama yok"
+
+
 
         // Tür bilgilerini göster
         tvSpeciesName.text = speciesName
@@ -92,13 +95,13 @@ class SpeciesDetailActivity : AppCompatActivity() {
     private fun addToCollection() {
         // Türü koleksiyona ekle veya çıkar
         val collectionManager = CollectionManager(this)
-        
+
         if (collectionManager.isInCollection(speciesId)) {
             collectionManager.removeFromCollection(speciesId)
         } else {
             collectionManager.addToCollection(speciesId)
         }
-        
+
         // Buton metnini güncelle
         updateCollectionButtonState()
     }
@@ -106,7 +109,7 @@ class SpeciesDetailActivity : AppCompatActivity() {
     private fun updateCollectionButtonState() {
         // Koleksiyon durumuna göre buton metnini güncelle
         val collectionManager = CollectionManager(this)
-        
+
         if (collectionManager.isInCollection(speciesId)) {
             btnAddToCollection.text = "Koleksiyondan Çıkar"
         } else {
@@ -116,10 +119,10 @@ class SpeciesDetailActivity : AppCompatActivity() {
 
     private fun startQuiz() {
         // Quiz ekranını başlat
-        val intent = android.content.Intent(this, QuizActivity::class).apply {
-            putExtra("SPECIES_ID", speciesId)
-        }
+        val intent = Intent(this, QuizActivity::class.java)
+        intent.putExtra("SPECIES_ID", speciesId)
         startActivity(intent)
+
     }
 
     override fun onBackPressed() {

@@ -49,10 +49,13 @@ class EcosystemFragment : Fragment() {
         recyclerView.adapter = speciesAdapter
 
         ivEcosystemImage = view.findViewById(R.id.ivEcosystemImage)
-
         return view
     }
 
+
+    }
+    
+>>>>>>> Stashed changes
     private fun setupViewModel(){
         ecosystemViewModel.speciesList.observe(viewLifecycleOwner) { it ->
             if (it != null && it.isNotEmpty()) {
@@ -78,6 +81,7 @@ class EcosystemFragment : Fragment() {
         tvSpeciesCount = view.findViewById(R.id.tvSpeciesCount)
         tvSpeciesCountText = view.findViewById(R.id.tvSpeciesCountText)
         lottieAnimationView = view.findViewById(R.id.lottieAnimationView)
+        
 
         setupViewModel()
 
@@ -96,6 +100,7 @@ class EcosystemFragment : Fragment() {
             "Kutup" -> {
                 ivEcosystemImage.setImageResource(R.drawable.banner_arctic)
             }
+        }
         }
 
         // Animasyonları ayarlama

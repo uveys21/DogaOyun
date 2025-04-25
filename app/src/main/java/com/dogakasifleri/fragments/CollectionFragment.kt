@@ -12,6 +12,7 @@ import com.dogakasifleri.adapters.CollectionAdapter
 import com.dogakasifleri.models.CollectionItem
 import com.dogakasifleri.models.Species
 import com.dogakasifleri.utils.CollectionManager
+import com.dogakasifleri.adapters.CollectionAdapter
 
 /**
  * Koleksiyon Fragment - Kullanıcının keşfettiği türleri gösterir
@@ -45,10 +46,10 @@ class CollectionFragment : Fragment() {
     private fun loadCollection() {
         // Koleksiyon yöneticisini oluştur
         val collectionManager = CollectionManager(requireContext())
-
+        
         // Koleksiyondaki CollectionItem'ları al
         val collectedItems = collectionManager.getCollectedSpecies()
-
+        
         // Tüm türleri al
         val allSpecies = getAllSpecies()
 
@@ -264,14 +265,17 @@ class CollectionFragment : Fragment() {
                 "Ren geyikleri, kutup bölgelerinde yaşayan ve hem erkekleri hem de dişileri boynuz taşıyan geyiklerdir.",
                 "Keskin görüşe sahiptir ve yüksek yerlerde yaşar.",
                 1,
-                0,
-
-                ),
+                0
+            )
         )
     }
 
     private fun openSpeciesDetail(collectionItem: CollectionItem) {
+<<<<<<< Updated upstream
         // Tür detay ekranını aç
+=======
+         // Tür detay ekranını aç
+>>>>>>> Stashed changes
         val selectedSpecies = getAllSpecies().find { it.id == collectionItem.speciesId }
         val intent = android.content.Intent(requireContext(), com.dogakasifleri.activities.SpeciesDetailActivity::class.java)
         if (selectedSpecies != null){

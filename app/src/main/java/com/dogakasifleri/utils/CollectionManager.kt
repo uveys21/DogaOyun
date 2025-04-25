@@ -37,10 +37,6 @@ class CollectionManager(private val context: Context) {
         return collectedItems.any { it.speciesId == speciesId }
 
     }
-
-    /**
-     * Koleksiyondaki tüm türlerin ID'lerini döndürür
-     */
     fun getCollectedSpecies(): MutableList<CollectionItem> {
         val collectedItems = mutableListOf<CollectionItem>()
 
@@ -58,6 +54,11 @@ class CollectionManager(private val context: Context) {
         }
 
         return collectedSpecies
+    }
+    /**
+     * Koleksiyondaki tüm türlerin ID'lerini döndürür
+     */
+
     }
 
     /**

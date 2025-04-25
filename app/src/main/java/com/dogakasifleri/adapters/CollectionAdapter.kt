@@ -28,6 +28,14 @@ class CollectionAdapter(
     override fun onBindViewHolder(holder: CollectionViewHolder, position: Int) {
         holder.bind(items[position])
     }
+    
+
+    fun updateData(newItems: List<CollectionItem>) {
+        items.clear()
+        items.addAll(newItems)
+        notifyDataSetChanged() // Verinin değiştiğini RecyclerView'a bildirir.
+    }
+
 
     override fun getItemCount(): Int = items.size
 

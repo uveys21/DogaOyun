@@ -46,6 +46,8 @@ class SpeciesDetailActivity : AppCompatActivity() {
         val speciesName = intent.getStringExtra("SPECIES_NAME") ?: "Tür"
         val speciesImage = intent.getIntExtra("SPECIES_IMAGE", R.drawable.species_default)
         val speciesDescription = intent.getStringExtra("SPECIES_DESCRIPTION") ?: "Açıklama yok"
+        
+
 
 
 

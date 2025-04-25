@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/game_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Oyun Seçim Ekranı -->
+        <LinearLayout
+            android:id="@+id/gameSelectionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_game"
+                android:textSize="20sp"
+                android:textColor="@color/primary_color"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout
+                android:id="@+id/gameButtonsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:divider="@drawable/divider_vertical"
+                android:showDividers="middle"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+        <!-- Oyun Container -->
+        <LinearLayout
+            android:id="@+id/gameContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- Oyun Başlık ve Açıklama -->
+            <TextView
+                android:id="@+id/textViewGameTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/game_title"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewGameDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/game_description"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Oyun İçeriği (Dinamik olarak eklenecek) -->
+            <FrameLayout
+                android:id="@+id/gameContent"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@drawable/bg_game_container"/>
+
+            <!-- Kontrol Çubuğu -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="16dp">
+
+                <Button
+                    android:id="@+id/buttonBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:layout_marginEnd="8dp"
+                    style="@style/GameControlButton"/>
+
+                <Button
+                    android:id="@+id/buttonRestart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/restart"
+                    android:layout_marginHorizontal="8dp"
+                    style="@style/GameControlButton"/>
+
+                <Button
+                    android:id="@+id/buttonHint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint"
+                    android:layout_marginStart="8dp"
+                    style="@style/GameControlButton"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

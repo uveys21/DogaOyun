@@ -138,6 +138,11 @@
     <string name="forgot_password_title">Parolamı Unuttum</string>
     <string name="navigation_drawer_open">Navigasyon Açık</string>
     <string name="navigation_drawer_close">Navigasyon Kapalı</string>
+    <string name="start_adventure">Maceraya Başla!</string>
+    <string name="app_logo">Uygulama Logosu</string>
+    <string name="choose_game">Bir Oyun Seçin</string>
+    <string name="restart">Yeniden Başlat</string>
+    <string name="hint">İpucu</string>
 
 
 </resources>

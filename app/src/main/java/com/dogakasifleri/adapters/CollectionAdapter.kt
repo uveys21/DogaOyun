@@ -39,11 +39,6 @@ class CollectionAdapter(
 
     override fun getItemCount(): Int = items.size
 
-    public fun updateData(newItems: List<CollectionItem>) {
-        items.clear()
-        items.addAll(newItems)
-        notifyDataSetChanged()
-    }
 
     inner class CollectionViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val ivSpeciesImage: ImageView = itemView.findViewById(R.id.ivSpeciesImage)

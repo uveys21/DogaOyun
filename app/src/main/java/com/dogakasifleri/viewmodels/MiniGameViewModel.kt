@@ -1,13 +1,14 @@
 package com.dogakasifleri.viewmodels
 
 import android.content.Context
-import android.provider.Settings.Global.putInt
-import android.provider.Settings.Global.putLong
+import android.content.SharedPreferences
+import android.view.SurfaceView
+import android.view.SurfaceHolder
+import androidx.core.content.edit
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.dogakasifleri.models.MiniGame
-import com.dogakasifleri.game.minigames.MiniGameManager
 
 /**
  * MiniGameViewModel - Mini oyun verilerini yöneten ViewModel sınıfı
@@ -178,10 +179,10 @@ class MiniGameViewModel : ViewModel() {
     /**
      * Mini oyunu tamamla
      */
-    fun completeMiniGame(gameId: Int, userId: String, score: Int): Boolean {
+    fun completeMiniGame(gameId: Int, userId: String, score: Int, context: Context): Boolean {
         return try {
-            val miniGame = miniGames.find { it.id == gameId } ?: return false
-            val userPrefs = context.getSharedPreferences("User_$userId", Context.MODE_PRIVATE)
+            val miniGame = _allMiniGames.value?.find { it.id == gameId } ?: return false
+            val userPrefs: SharedPreferences = context.getSharedPreferences("User_$userId", Context.MODE_PRIVATE)
 
             // Skor güncelleme
             val currentHighScore = userPrefs.getInt("highscore_$gameId", 0)
@@ -230,11 +231,4 @@ class MiniGameViewModel : ViewModel() {
             _completedMiniGames.postValue(this)
         }
     }
-}
-
-private fun MiniGameManager.completeMiniGame(
-    i: Int,
-    i: Int,
-    string: String
-) {
 }

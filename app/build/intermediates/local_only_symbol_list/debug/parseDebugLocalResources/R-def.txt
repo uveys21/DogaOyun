@@ -6,6 +6,7 @@ color accent
 color arctic_white
 color avatar_border
 color avatar_placeholder_tint
+color background_color
 color black
 color button_accent
 color button_primary_color
@@ -18,6 +19,9 @@ color colorSecondary
 color desert_yellow
 color divider
 color forest_green
+color game_background
+color game_description
+color game_title
 color ic_launcher_background
 color icons
 color nav_icon_color
@@ -25,10 +29,12 @@ color nav_selected_icon_color
 color nav_text_color
 color ocean_blue
 color primary
+color primary_color
 color primary_dark
 color primary_light
 color primary_text
 color secondary_text
+color secondary_text_color
 color white
 drawable achievement_arctic_expert
 drawable achievement_collector
@@ -60,12 +66,16 @@ drawable bg_card_white
 drawable bg_ecosystem_desert
 drawable bg_ecosystem_forest
 drawable bg_ecosystem_ocean
+drawable bg_game_container
 drawable button_accent
 drawable button_primary
 drawable button_secondary
+drawable divider_vertical
 drawable error_image
 drawable ic_achievement_default
 drawable ic_achievements
+drawable ic_adventure
+drawable ic_app_logo
 drawable ic_back
 drawable ic_collection
 drawable ic_home
@@ -75,6 +85,10 @@ drawable ic_map
 drawable ic_parental_controls
 drawable ic_settings
 drawable ic_unlocked
+drawable menu_achievements
+drawable menu_collection
+drawable menu_map
+drawable menu_settings
 drawable placeholder_ecosystem
 drawable placeholder_image
 drawable species_cactus
@@ -95,7 +109,6 @@ drawable species_seal
 drawable species_squirrel
 drawable species_starfish
 drawable temp
-id animationViewEcosystem
 id btnAddToCollection
 id btnBack
 id btnLogin
@@ -103,9 +116,13 @@ id btnRegister
 id btnResetPassword
 id btnSaveCharacter
 id btnSaveSettings
+id btnStartAdventure
 id btnStartQuiz
 id btnSubmit
+id buttonBack
+id buttonHint
 id buttonParentalControl
+id buttonRestart
 id drawer_layout
 id emptyAchievementsView
 id emptyCollectionView
@@ -116,6 +133,10 @@ id etParentPin
 id etPassword
 id etUsername
 id fragment_container
+id gameButtonsContainer
+id gameContainer
+id gameContent
+id gameSelectionLayout
 id ivAchievementBadge
 id ivCharacterImage
 id ivCollectionImage
@@ -128,6 +149,7 @@ id ivMenuIcon
 id ivNavHeaderAvatar
 id ivSelectedAvatar
 id ivSpeciesImage
+id lottieAnimationView
 id nav_achievements
 id nav_collection
 id nav_home
@@ -147,6 +169,7 @@ id rgAnswers
 id rvAchievements
 id rvAvatars
 id rvCollection
+id rvMenuItems
 id rvSpecies
 id settings_container
 id switchAllowQuiz
@@ -155,6 +178,8 @@ id switchTimeLimit
 id textViewAchievementStats
 id textViewEcosystemDescription
 id textViewEcosystemTitle
+id textViewGameDescription
+id textViewGameTitle
 id tilCharacterName
 id tilPassword
 id tilUsername
@@ -182,6 +207,8 @@ id tvNavHeaderUsername
 id tvQuestion
 id tvQuestionNumber
 id tvRegisterPrompt
+id tvSpeciesCount
+id tvSpeciesCountText
 id tvSpeciesDescription
 id tvSpeciesFacts
 id tvSpeciesListTitle
@@ -203,6 +230,8 @@ layout activity_splash
 layout fragment_achievements
 layout fragment_collection
 layout fragment_ecosystem
+layout fragment_main_menu
+layout fragment_mini_game
 layout item_achievement
 layout item_character
 layout item_collection
@@ -213,11 +242,17 @@ layout nav_header
 menu drawer_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw arctic_animation
+raw desert_animation
+raw forest_animation
+raw ocean_animation
+raw splash_animation
 string achievement_locked
 string achievement_unlocked
 string achievements_title
 string add_to_collection_button
 string animals
+string app_logo
 string app_name
 string app_slogan
 string arctic
@@ -233,6 +268,7 @@ string character_ready
 string choose_avatar
 string choose_color
 string choose_ecosystem
+string choose_game
 string choose_name
 string collection_empty
 string confirm_password
@@ -252,6 +288,7 @@ string forest_description
 string forgot_password
 string forgot_password_title
 string hard
+string hint
 string language
 string login
 string login_button
@@ -295,6 +332,7 @@ string register
 string register_button
 string register_prompt
 string reset_password_button
+string restart
 string save
 string save_character_button
 string screen_time
@@ -306,6 +344,7 @@ string species_description_placeholder
 string species_facts_placeholder
 string species_list_title
 string species_name_placeholder
+string start_adventure
 string start_game
 string start_quiz_button
 string username
@@ -313,6 +352,7 @@ string username_hint
 style CollectionItemDescription
 style CollectionItemTitle
 style EcosystemTitle
+style GameControlButton
 style NavigationViewStyle
 style RoundedButton
 style Theme.DogaKasifleri

@@ -1,102 +1,106 @@
 [
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_settings.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_settings.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_character_creation.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_character_creation.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/item_collection.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_collection.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\item_species.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\item_species.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_parental_control.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_parental_control.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/item_menu.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_menu.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_quiz.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_quiz.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_forgot_password.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_forgot_password.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\nav_header.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/fragment_ecosystem.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/fragment_ecosystem.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\item_ecosystem.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\item_ecosystem.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/fragment_achievements.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/fragment_achievements.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\item_collection.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\item_collection.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_ecosystem.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_ecosystem.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\item_menu.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\item_menu.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_collection.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_collection.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_login.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_main.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_main.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_register.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_species_detail.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_species_detail.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\fragment_collection.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\fragment_collection.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_map.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_map.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_achievements.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_achievements.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_character_creation.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_character_creation.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_species_detail.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_species_detail.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_splash.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_achievements.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_achievements.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_login.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_login.xml"
+        "merged": "com.dogakasifleri.app-mergeDebugResources-55:/layout/fragment_mini_game.xml",
+        "source": "com.dogakasifleri.app-main-58:/layout/fragment_mini_game.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/item_ecosystem.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_ecosystem.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_map.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_map.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/item_achievement.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_achievement.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_parental_control.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_parental_control.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/item_species.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_species.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\item_character.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\item_character.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/nav_header.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/nav_header.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/fragment_collection.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/fragment_collection.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\fragment_achievements.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\fragment_achievements.xml"
     },
     {
-        "merged": "com.dogakasifleri.app-mergeDebugResources-55:/layout/item_collection.xml",
-        "source": "com.dogakasifleri.app-main-58:/layout/item_collection.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_collection.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_collection.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_quiz.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_quiz.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\item_achievement.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\item_achievement.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/item_character.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/item_character.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\fragment_ecosystem.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\fragment_ecosystem.xml"
     },
     {
-        "merged": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-mergeDebugResources-55:/layout/activity_register.xml",
-        "source": "/home/user/.gradle/daemon/8.11.1/com.dogakasifleri.app-main-58:/layout/activity_register.xml"
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\fragment_main_menu.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\fragment_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-mergeDebugResources-55:\\layout\\activity_ecosystem.xml",
+        "source": "C:\\Users\\uveys\\.gradle\\daemon\\8.11.1\\com.dogakasifleri.app-main-58:\\layout\\activity_ecosystem.xml"
     }
 ]

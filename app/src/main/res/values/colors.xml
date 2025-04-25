@@ -43,5 +43,13 @@
     <!-- Ek Renkler -->
     <color name="button_accent">#FF5722</color> <!-- Kırmızımsı Turuncu -->
 
+    <color name="primary_color">#2E7D32</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="secondary_text_color">#757575</color>
+
+    <color name="game_background">#E8F5E9</color>
+    <color name="game_title">#2E7D32</color>
+    <color name="game_description">#689F38</color>
+
 
 </resources>

@@ -4,7 +4,17 @@
             "outputFile": "com.dogakasifleri.app-mergeDebugResources-54:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/user/.gradle/caches/8.11.1/transforms/31e50454662d5b5ca21866ae5737fea1/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\uveys\\.gradle\\caches\\8.11.1\\transforms\\3670a0d904cdf81eecf75f0125aacf90\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\uveys\\.gradle\\caches\\8.11.1\\transforms\\31e50454662d5b5ca21866ae5737fea1\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/home/user/.gradle/caches/8.11.1/transforms/3670a0d904cdf81eecf75f0125aacf90/transformed/core-1.12.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

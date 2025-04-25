@@ -1480,6 +1480,7 @@ color androidx_core_secondary_text_default_material_light
 color arctic_white
 color avatar_border
 color avatar_placeholder_tint
+color background_color
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1556,6 +1557,9 @@ color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
 color forest_green
+color game_background
+color game_description
+color game_title
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
@@ -2219,6 +2223,7 @@ color notification_icon_bg_color
 color ocean_blue
 color preference_fallback_accent_color
 color primary
+color primary_color
 color primary_dark
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -2233,6 +2238,7 @@ color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
 color secondary_text
+color secondary_text_color
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -3161,6 +3167,7 @@ drawable bg_card_white
 drawable bg_ecosystem_desert
 drawable bg_ecosystem_forest
 drawable bg_ecosystem_ocean
+drawable bg_game_container
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3177,9 +3184,12 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable divider_vertical
 drawable error_image
 drawable ic_achievement_default
 drawable ic_achievements
+drawable ic_adventure
+drawable ic_app_logo
 drawable ic_arrow_back_black_24
 drawable ic_arrow_down_24dp
 drawable ic_back
@@ -3229,6 +3239,10 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menu_achievements
+drawable menu_collection
+drawable menu_map
+drawable menu_settings
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3383,7 +3397,6 @@ id always
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
-id animationViewEcosystem
 id antiClockwise
 id anticipate
 id arc
@@ -3412,10 +3425,14 @@ id btnRegister
 id btnResetPassword
 id btnSaveCharacter
 id btnSaveSettings
+id btnStartAdventure
 id btnStartQuiz
 id btnSubmit
+id buttonBack
+id buttonHint
 id buttonPanel
 id buttonParentalControl
+id buttonRestart
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3528,6 +3545,10 @@ id fragment_container
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id gameButtonsContainer
+id gameContainer
+id gameContent
+id gameSelectionLayout
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
@@ -3585,6 +3606,7 @@ id linear
 id listMode
 id list_item
 id locale
+id lottieAnimationView
 id lottie_layer_name
 id ltr
 id m3_side_sheet
@@ -3741,6 +3763,7 @@ id rtl
 id rvAchievements
 id rvAvatars
 id rvCollection
+id rvMenuItems
 id rvSpecies
 id save_non_transition_alpha
 id save_overlay_view
@@ -3838,6 +3861,8 @@ id textTop
 id textViewAchievementStats
 id textViewEcosystemDescription
 id textViewEcosystemTitle
+id textViewGameDescription
+id textViewGameTitle
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3890,6 +3915,8 @@ id tvNavHeaderUsername
 id tvQuestion
 id tvQuestionNumber
 id tvRegisterPrompt
+id tvSpeciesCount
+id tvSpeciesCountText
 id tvSpeciesDescription
 id tvSpeciesFacts
 id tvSpeciesListTitle
@@ -4068,6 +4095,8 @@ layout expand_button
 layout fragment_achievements
 layout fragment_collection
 layout fragment_ecosystem
+layout fragment_main_menu
+layout fragment_mini_game
 layout image_frame
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
@@ -4159,6 +4188,11 @@ menu drawer_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw arctic_animation
+raw desert_animation
+raw forest_animation
+raw ocean_animation
+raw splash_animation
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4192,6 +4226,7 @@ string achievements_title
 string add_to_collection_button
 string androidx_startup
 string animals
+string app_logo
 string app_name
 string app_slogan
 string appbar_scrolling_view_behavior
@@ -4224,6 +4259,7 @@ string character_ready
 string choose_avatar
 string choose_color
 string choose_ecosystem
+string choose_game
 string choose_name
 string clear_text_end_icon_content_description
 string collection_empty
@@ -4253,6 +4289,7 @@ string forgot_password
 string forgot_password_title
 string hard
 string hide_bottom_view_on_scroll_behavior
+string hint
 string icon_content_description
 string item_view_role_description
 string language
@@ -4407,6 +4444,7 @@ string register
 string register_button
 string register_prompt
 string reset_password_button
+string restart
 string save
 string save_character_button
 string screen_time
@@ -4424,6 +4462,7 @@ string species_description_placeholder
 string species_facts_placeholder
 string species_list_title
 string species_name_placeholder
+string start_adventure
 string start_game
 string start_quiz_button
 string status_bar_notification_info_overflow
@@ -4726,6 +4765,7 @@ style CardView_Light
 style CollectionItemDescription
 style CollectionItemTitle
 style EcosystemTitle
+style GameControlButton
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text

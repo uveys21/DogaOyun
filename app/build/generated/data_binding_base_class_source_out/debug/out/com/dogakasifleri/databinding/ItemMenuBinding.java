@@ -5,20 +5,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.dogakasifleri.R;
+import com.google.android.material.card.MaterialCardView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ItemMenuBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final MaterialCardView rootView;
 
   @NonNull
   public final ImageView ivMenuIcon;
@@ -29,7 +29,7 @@ public final class ItemMenuBinding implements ViewBinding {
   @NonNull
   public final TextView tvMenuTitle;
 
-  private ItemMenuBinding(@NonNull LinearLayout rootView, @NonNull ImageView ivMenuIcon,
+  private ItemMenuBinding(@NonNull MaterialCardView rootView, @NonNull ImageView ivMenuIcon,
       @NonNull TextView tvMenuDescription, @NonNull TextView tvMenuTitle) {
     this.rootView = rootView;
     this.ivMenuIcon = ivMenuIcon;
@@ -39,7 +39,7 @@ public final class ItemMenuBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public MaterialCardView getRoot() {
     return rootView;
   }
 
@@ -82,7 +82,7 @@ public final class ItemMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemMenuBinding((LinearLayout) rootView, ivMenuIcon, tvMenuDescription,
+      return new ItemMenuBinding((MaterialCardView) rootView, ivMenuIcon, tvMenuDescription,
           tvMenuTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);

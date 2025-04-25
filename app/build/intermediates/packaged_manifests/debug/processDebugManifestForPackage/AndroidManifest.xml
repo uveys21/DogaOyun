@@ -8,6 +8,11 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <!-- İzinler -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <permission
         android:name="com.dogakasifleri.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -26,6 +31,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DogaKasifleri" >
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY_HERE" /> <!-- Google Cloud Console'dan alınacak -->
+
+
+        <!-- Aktiviteler -->
         <activity
             android:name="com.dogakasifleri.activities.SplashActivity"
             android:exported="true"
@@ -41,25 +54,32 @@
             android:exported="false" />
         <activity
             android:name="com.dogakasifleri.activities.LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.dogakasifleri.activities.CharacterCreationActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.dogakasifleri.activities.MapActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:launchMode="singleTop" />
         <activity
             android:name="com.dogakasifleri.activities.EcosystemActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName="com.dogakasifleri.activities.MapActivity" />
         <activity
             android:name="com.dogakasifleri.activities.CollectionActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName="com.dogakasifleri.activities.MainActivity" />
         <activity
             android:name="com.dogakasifleri.activities.AchievementsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName="com.dogakasifleri.activities.MainActivity" />
         <activity
             android:name="com.dogakasifleri.activities.SettingsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName="com.dogakasifleri.activities.MainActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

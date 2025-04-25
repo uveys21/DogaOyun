@@ -4,11 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.dogakasifleri.R
+import com.dogakasifleri.game.minigames.MiniGameManager
 import com.dogakasifleri.models.MiniGame
 import com.dogakasifleri.utils.AnimationUtils
 import com.dogakasifleri.viewmodels.MiniGameViewModel
-import com.dogakasifleri.game.minigames.MiniGameManager
 
 /**
  * MiniGameFragment - Mini oyunları gösteren ve oynatan fragment
@@ -129,28 +133,15 @@ class MiniGameFragment : Fragment() {
      * Oyunu başlatır
      */
     private fun startGame(game: MiniGame?) {
-        if (game == null) return
-        
-        // Oyun container'ını göster
-        view?.findViewById<View>(R.id.gameSelectionLayout)?.visibility = View.GONE
-        view?.findViewById<View>(R.id.gameContainer)?.visibility = View.VISIBLE
-        
-        // Oyun başlığını ayarla
-        view?.findViewById<TextView>(R.id.textViewGameTitle)?.text = game.name
-        
-        // Oyun açıklamasını ayarla
-        view?.findViewById<TextView>(R.id.textViewGameDescription)?.text = game.description
-        
-        // Oyun tipine göre uygun oyunu başlat
-        when (game.type) {
-            "Hafıza" -> miniGameManager.startMemoryGame(view?.findViewById(R.id.gameContainer), game)
-            "Bulmaca" -> miniGameManager.startPuzzleGame(view?.findViewById(R.id.gameContainer), game)
-            "Quiz" -> miniGameManager.startQuizGame(view?.findViewById(R.id.gameContainer), game)
-            "Sıralama" -> miniGameManager.startSortingGame(view?.findViewById(R.id.gameContainer), game)
-            "Geri Dönüşüm" -> miniGameManager.startRecyclingGame(view?.findViewById(R.id.gameContainer), game)
+        val container = view?.findViewById<ViewGroup>(R.id.gameContainer)
+        when (game?.type) {
+            "Hafıza" -> miniGameManager.startMemoryGame(container, game)
+            "Bulmaca" -> miniGameManager.startPuzzleGame(container, game)
+            "Quiz" -> miniGameManager.startQuizGame(container, game)
+            "Sıralama" -> miniGameManager.startSortingGame(container, game)
+            "Geri Dönüşüm" -> miniGameManager.startRecyclingGame(container, game)
         }
     }
-    
     /**
      * Oyun kontrol butonlarını ayarlar
      */
@@ -173,6 +164,8 @@ class MiniGameFragment : Fragment() {
             miniGameManager.showHint()
         }
     }
+
+
     
     companion object {
         fun newInstance(gameId: Int): MiniGameFragment {

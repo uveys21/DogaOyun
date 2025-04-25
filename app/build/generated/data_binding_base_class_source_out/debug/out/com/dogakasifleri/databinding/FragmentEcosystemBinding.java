@@ -4,6 +4,7 @@ package com.dogakasifleri.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,10 +23,13 @@ public final class FragmentEcosystemBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final LottieAnimationView animationViewEcosystem;
+  public final View emptySpeciesView;
 
   @NonNull
-  public final View emptySpeciesView;
+  public final ImageView ivEcosystemImage;
+
+  @NonNull
+  public final LottieAnimationView lottieAnimationView;
 
   @NonNull
   public final RecyclerView recyclerViewSpecies;
@@ -36,16 +40,26 @@ public final class FragmentEcosystemBinding implements ViewBinding {
   @NonNull
   public final TextView textViewEcosystemTitle;
 
+  @NonNull
+  public final TextView tvSpeciesCount;
+
+  @NonNull
+  public final TextView tvSpeciesCountText;
+
   private FragmentEcosystemBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LottieAnimationView animationViewEcosystem, @NonNull View emptySpeciesView,
-      @NonNull RecyclerView recyclerViewSpecies, @NonNull TextView textViewEcosystemDescription,
-      @NonNull TextView textViewEcosystemTitle) {
+      @NonNull View emptySpeciesView, @NonNull ImageView ivEcosystemImage,
+      @NonNull LottieAnimationView lottieAnimationView, @NonNull RecyclerView recyclerViewSpecies,
+      @NonNull TextView textViewEcosystemDescription, @NonNull TextView textViewEcosystemTitle,
+      @NonNull TextView tvSpeciesCount, @NonNull TextView tvSpeciesCountText) {
     this.rootView = rootView;
-    this.animationViewEcosystem = animationViewEcosystem;
     this.emptySpeciesView = emptySpeciesView;
+    this.ivEcosystemImage = ivEcosystemImage;
+    this.lottieAnimationView = lottieAnimationView;
     this.recyclerViewSpecies = recyclerViewSpecies;
     this.textViewEcosystemDescription = textViewEcosystemDescription;
     this.textViewEcosystemTitle = textViewEcosystemTitle;
+    this.tvSpeciesCount = tvSpeciesCount;
+    this.tvSpeciesCountText = tvSpeciesCountText;
   }
 
   @Override
@@ -75,15 +89,21 @@ public final class FragmentEcosystemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.animationViewEcosystem;
-      LottieAnimationView animationViewEcosystem = ViewBindings.findChildViewById(rootView, id);
-      if (animationViewEcosystem == null) {
-        break missingId;
-      }
-
       id = R.id.emptySpeciesView;
       View emptySpeciesView = ViewBindings.findChildViewById(rootView, id);
       if (emptySpeciesView == null) {
+        break missingId;
+      }
+
+      id = R.id.ivEcosystemImage;
+      ImageView ivEcosystemImage = ViewBindings.findChildViewById(rootView, id);
+      if (ivEcosystemImage == null) {
+        break missingId;
+      }
+
+      id = R.id.lottieAnimationView;
+      LottieAnimationView lottieAnimationView = ViewBindings.findChildViewById(rootView, id);
+      if (lottieAnimationView == null) {
         break missingId;
       }
 
@@ -105,9 +125,21 @@ public final class FragmentEcosystemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentEcosystemBinding((ConstraintLayout) rootView, animationViewEcosystem,
-          emptySpeciesView, recyclerViewSpecies, textViewEcosystemDescription,
-          textViewEcosystemTitle);
+      id = R.id.tvSpeciesCount;
+      TextView tvSpeciesCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvSpeciesCount == null) {
+        break missingId;
+      }
+
+      id = R.id.tvSpeciesCountText;
+      TextView tvSpeciesCountText = ViewBindings.findChildViewById(rootView, id);
+      if (tvSpeciesCountText == null) {
+        break missingId;
+      }
+
+      return new FragmentEcosystemBinding((ConstraintLayout) rootView, emptySpeciesView,
+          ivEcosystemImage, lottieAnimationView, recyclerViewSpecies, textViewEcosystemDescription,
+          textViewEcosystemTitle, tvSpeciesCount, tvSpeciesCountText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

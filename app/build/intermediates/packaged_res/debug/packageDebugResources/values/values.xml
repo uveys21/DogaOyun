@@ -4,6 +4,7 @@
     <color name="arctic_white">#FFFFFF</color>
     <color name="avatar_border">#1B5E20</color>
     <color name="avatar_placeholder_tint">#BDBDBD</color>
+    <color name="background_color">#F5F5F5</color>
     <color name="black">#000000</color>
     <color name="button_accent">#FF5722</color>
     <color name="button_primary_color">#2E7D32</color>
@@ -16,6 +17,9 @@
     <color name="desert_yellow">#FFFF00</color>
     <color name="divider">#BDBDBD</color>
     <color name="forest_green">#008000</color>
+    <color name="game_background">#E8F5E9</color>
+    <color name="game_description">#689F38</color>
+    <color name="game_title">#2E7D32</color>
     <color name="ic_launcher_background">#DC3D42</color>
     <color name="icons">#FFFFFF</color>
     <color name="nav_icon_color">#757575</color>
@@ -23,16 +27,19 @@
     <color name="nav_text_color">@color/colorPrimaryDark</color>
     <color name="ocean_blue">#0000FF</color>
     <color name="primary">#4CAF50</color>
+    <color name="primary_color">#2E7D32</color>
     <color name="primary_dark">#388E3C</color>
     <color name="primary_light">#C8E6C9</color>
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#757575</color>
+    <color name="secondary_text_color">#757575</color>
     <color name="white">#FFFFFF</color>
     <string name="achievement_locked">Kilitli</string>
     <string name="achievement_unlocked">Başarı Kazanıldı!</string>
     <string name="achievements_title">Başarılarım</string>
     <string name="add_to_collection_button">🗂 Koleksiyona Ekle</string>
     <string name="animals">Hayvanlar</string>
+    <string name="app_logo">Uygulama Logosu</string>
     <string name="app_name">Doğa Kaşifleri</string>
     <string name="app_slogan">Doğayı Öğren, Keşfet!</string>
     <string name="arctic">Kutuplar</string>
@@ -48,6 +55,7 @@
     <string name="choose_avatar">Avatarını Seç</string>
     <string name="choose_color">Rengini Seç</string>
     <string name="choose_ecosystem">Ekosistem Seç</string>
+    <string name="choose_game">Bir Oyun Seçin</string>
     <string name="choose_name">İsmini Seç</string>
     <string name="collection_empty">Henüz koleksiyonunda bir şey yok. Keşfe çık ve toplamaya başla!</string>
     <string name="confirm_password">Şifreyi Onayla</string>
@@ -67,6 +75,7 @@
     <string name="forgot_password">Şifremi Unuttum</string>
     <string name="forgot_password_title">Parolamı Unuttum</string>
     <string name="hard">Zor</string>
+    <string name="hint">İpucu</string>
     <string name="language">Dil</string>
     <string name="login">Giriş Yap</string>
     <string name="login_button">Giriş Yap</string>
@@ -110,6 +119,7 @@
     <string name="register_button">Kayıt Ol</string>
     <string name="register_prompt">Hesabınız yok mu?</string>
     <string name="reset_password_button">Şifreyi Sıfırla</string>
+    <string name="restart">Yeniden Başlat</string>
     <string name="save">Kaydet</string>
     <string name="save_character_button">Kaydet ve Başla</string>
     <string name="screen_time">Ekran Süresi</string>
@@ -121,6 +131,7 @@
     <string name="species_facts_placeholder">• Günde 1000 adım atar\n• Yuvaları 1 metre derinlikte</string>
     <string name="species_list_title">Bu Ekosistemdeki Türler</string>
     <string name="species_name_placeholder">Kırmızı Orman Karıncası</string>
+    <string name="start_adventure">Maceraya Başla!</string>
     <string name="start_game">Oyuna Başla</string>
     <string name="start_quiz_button">🎯 Bilgi Yarışması</string>
     <string name="username">Kullanıcı Adı</string>
@@ -138,6 +149,13 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="GameControlButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:backgroundTint">@color/primary_color</item>
+        <item name="android:minWidth">100dp</item>
     </style>
     <style name="NavigationViewStyle" parent="Widget.MaterialComponents.NavigationView">
         <item name="itemIconTint">@color/nav_icon_color</item>

@@ -12,7 +12,6 @@ import com.dogakasifleri.adapters.CollectionAdapter
 import com.dogakasifleri.models.CollectionItem
 import com.dogakasifleri.models.Species
 import com.dogakasifleri.utils.CollectionManager
-import com.dogakasifleri.adapters.CollectionAdapter
 
 /**
  * Koleksiyon Fragment - Kullanıcının keşfettiği türleri gösterir
@@ -271,11 +270,9 @@ class CollectionFragment : Fragment() {
     }
 
     private fun openSpeciesDetail(collectionItem: CollectionItem) {
-<<<<<<< Updated upstream
+
         // Tür detay ekranını aç
-=======
-         // Tür detay ekranını aç
->>>>>>> Stashed changes
+
         val selectedSpecies = getAllSpecies().find { it.id == collectionItem.speciesId }
         val intent = android.content.Intent(requireContext(), com.dogakasifleri.activities.SpeciesDetailActivity::class.java)
         if (selectedSpecies != null){

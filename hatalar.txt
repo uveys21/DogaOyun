@@ -1,0 +1,229 @@
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/repositories/EcosystemRepositoryImpl.kt:8:54 Return type of 'getEcosystemById' is not a subtype of the return type of the overridden member 'fun getEcosystemById(ecosystemId: Int): Ecosystem' defined in 'com/dogakasifleri/repositories/EcosystemRepository'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/repositories/EcosystemRepositoryImpl.kt:23:41 Unresolved reference 'ic_ocean'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/repositories/EcosystemRepositoryImpl.kt:32:41 Unresolved reference 'ic_desert'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/repositories/EcosystemRepositoryImpl.kt:41:41 Unresolved reference 'ic_polar'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:71:17 No parameter with name 'name' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:73:17 No parameter with name 'drawableId' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:76:17 No value passed for parameter 'title'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:76:17 No value passed for parameter 'iconResId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:80:17 No parameter with name 'name' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:82:17 No parameter with name 'drawableId' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:85:17 No value passed for parameter 'title'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:85:17 No value passed for parameter 'iconResId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:89:17 No parameter with name 'name' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:91:17 No parameter with name 'drawableId' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:94:17 No value passed for parameter 'title'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:94:17 No value passed for parameter 'iconResId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:98:17 No parameter with name 'name' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:100:17 No parameter with name 'drawableId' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:103:17 No value passed for parameter 'title'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:103:17 No value passed for parameter 'iconResId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:107:17 No parameter with name 'name' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:109:17 No parameter with name 'drawableId' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:112:17 No value passed for parameter 'title'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:112:17 No value passed for parameter 'iconResId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:124:49 Unresolved reference 'getCollectionCount'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:150:58 Type inference failed. The value of the type parameter 'T' should be mentioned in input types (argument types, receiver type, or expected type). Try to specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:156:57 Type inference failed. The value of the type parameter 'T' should be mentioned in input types (argument types, receiver type, or expected type). Try to specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:162:58 Type inference failed. The value of the type parameter 'T' should be mentioned in input types (argument types, receiver type, or expected type). Try to specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/AchievementManager.kt:168:58 Type inference failed. The value of the type parameter 'T' should be mentioned in input types (argument types, receiver type, or expected type). Try to specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'name'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'type'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'imageUrl'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'description'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'ecosystemType'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'discoveryDate'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'rarity'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'referenceId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:51:55 No value passed for parameter 'speciesId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:56:16 Unresolved reference 'collectedSpecies'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:68:16 Unresolved reference 'getCollectedSpecies'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:75:22 Unresolved reference 'sharedPreferences'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:76:16 Unresolved reference 'clear'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:77:21 No value passed for parameter 'block'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/CollectionManager.kt:79:1 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/SoundManager.kt:112:17 'val' cannot be reassigned.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:49:21 No value passed for parameter 'colorResId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:49:21 No value passed for parameter 'type'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:49:21 No value passed for parameter 'species'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:49:45 Unresolved reference 'forest_icon'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:56:45 Unresolved reference 'eagle'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:57:21 No value passed for parameter 'scientificName'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:57:21 No value passed for parameter 'type'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:57:21 No value passed for parameter 'shortDescription'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:57:21 No value passed for parameter 'facts'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:57:21 No value passed for parameter 'level'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:57:21 No value passed for parameter 'experience'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:65:21 No parameter with name 'targetCount' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:66:21 No parameter with name 'currentCount' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:66:21 No value passed for parameter 'iconResId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:66:21 No value passed for parameter 'maxProgress'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:66:21 No value passed for parameter 'progress'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:66:21 No value passed for parameter 'completed'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:72:34 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:73:21 No value passed for parameter 'description'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:80:21 No value passed for parameter 'description'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:85:21 No parameter with name 'id' found.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:109:25 No value passed for parameter 'colorResId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:109:25 No value passed for parameter 'type'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:109:25 No value passed for parameter 'species'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:109:49 Unresolved reference 'forest_icon'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:120:49 Unresolved reference 'eagle'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:121:25 No value passed for parameter 'scientificName'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:121:25 No value passed for parameter 'type'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:121:25 No value passed for parameter 'shortDescription'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:121:25 No value passed for parameter 'facts'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:121:25 No value passed for parameter 'level'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/utils/TestHelper.kt:121:25 No value passed for parameter 'experience'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:92:44 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:93:44 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:94:44 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:95:44 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:106:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:107:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:108:44 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:109:42 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:120:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:121:46 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:122:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:123:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:124:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:125:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:126:39 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:137:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:138:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:139:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:140:46 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:141:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:152:46 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:153:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:154:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:155:39 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:156:39 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:157:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:168:43 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:169:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:170:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:171:40 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:172:39 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:173:43 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:174:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:185:39 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:186:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:187:42 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:188:42 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:189:48 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:200:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:201:48 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:202:48 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CharacterViewModel.kt:203:47 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CollectionViewModel.kt:50:21 No value passed for parameter 'speciesId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CollectionViewModel.kt:61:21 No value passed for parameter 'speciesId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CollectionViewModel.kt:72:21 No value passed for parameter 'speciesId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CollectionViewModel.kt:84:21 No value passed for parameter 'speciesId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/CollectionViewModel.kt:95:21 No value passed for parameter 'speciesId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:122:21 Null cannot be a value of a non-null type 'kotlin.Int'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:123:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:124:21 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.String' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:124:21 No value passed for parameter 'species'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:130:21 Null cannot be a value of a non-null type 'kotlin.Int'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:131:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:132:21 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.String' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:132:21 No value passed for parameter 'species'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:134:51 Null cannot be a value of a non-null type 'kotlin.Int'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:134:57 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:134:89 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.String' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:134:89 No value passed for parameter 'species'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:135:53 Null cannot be a value of a non-null type 'kotlin.Int'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:135:59 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:135:87 Argument type mismatch: actual type is 'kotlin.Int', but 'kotlin.String' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:135:87 No value passed for parameter 'species'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:158:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:170:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:182:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:194:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:206:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:218:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:230:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MainViewModel.kt:242:21 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Int' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:51:28 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameType' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:52:34 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameDifficulty' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:54:21 No value passed for parameter 'ecosystemId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:54:21 No value passed for parameter 'imageResource'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:54:21 No value passed for parameter 'rewardPoints'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:60:28 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameType' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:61:34 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameDifficulty' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:63:21 No value passed for parameter 'ecosystemId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:63:21 No value passed for parameter 'imageResource'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:63:21 No value passed for parameter 'rewardPoints'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:69:28 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameType' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:70:34 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameDifficulty' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:72:21 No value passed for parameter 'ecosystemId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:72:21 No value passed for parameter 'imageResource'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:72:21 No value passed for parameter 'rewardPoints'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:78:28 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameType' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:79:34 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameDifficulty' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:81:21 No value passed for parameter 'ecosystemId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:81:21 No value passed for parameter 'imageResource'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:81:21 No value passed for parameter 'rewardPoints'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:87:28 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameType' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:88:34 Argument type mismatch: actual type is 'kotlin.String', but 'com.dogakasifleri.models.GameDifficulty' was expected.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:90:21 No value passed for parameter 'ecosystemId'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:90:21 No value passed for parameter 'imageResource'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:90:21 No value passed for parameter 'rewardPoints'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:219:9 Unresolved reference '_allMiniGames'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:219:47 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:219:47 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T> T.apply(block: T.() -> Unit): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:219:53 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:221:13 Unresolved reference '_allMiniGames'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:221:37 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:224:9 Unresolved reference '_ecosystemMiniGames'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:224:53 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:224:53 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T> T.apply(block: T.() -> Unit): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:224:59 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:226:13 Unresolved reference '_ecosystemMiniGames'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:226:43 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:229:9 Unresolved reference '_completedMiniGames'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:229:53 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:229:53 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T> T.apply(block: T.() -> Unit): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:229:59 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:230:17 Overload resolution ambiguity between candidates:
+fun <T> Array<out T>.none(predicate: (T) -> Boolean): Boolean
+fun BooleanArray.none(predicate: (Boolean) -> Boolean): Boolean
+fun ByteArray.none(predicate: (Byte) -> Boolean): Boolean
+fun CharArray.none(predicate: (Char) -> Boolean): Boolean
+fun DoubleArray.none(predicate: (Double) -> Boolean): Boolean
+fun FloatArray.none(predicate: (Float) -> Boolean): Boolean
+fun IntArray.none(predicate: (Int) -> Boolean): Boolean
+fun LongArray.none(predicate: (Long) -> Boolean): Boolean
+fun ShortArray.none(predicate: (Short) -> Boolean): Boolean
+fun <T> Iterable<T>.none(predicate: (T) -> Boolean): Boolean
+fun <K, V> Map<out K, V>.none(predicate: (Map.Entry<K, V>) -> Boolean): Boolean
+fun UByteArray.none(predicate: (UByte) -> Boolean): Boolean
+fun UIntArray.none(predicate: (UInt) -> Boolean): Boolean
+fun ULongArray.none(predicate: (ULong) -> Boolean): Boolean
+fun UShortArray.none(predicate: (UShort) -> Boolean): Boolean
+fun <T> Sequence<T>.none(predicate: (T) -> Boolean): Boolean
+fun CharSequence.none(predicate: (Char) -> Boolean): Boolean
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:230:24 Unresolved reference 'it'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:230:51 Unresolved reference 'add'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:231:13 Unresolved reference '_completedMiniGames'.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:231:43 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/uveys/AndroidStudioProjects/dogakasifleri/app/src/main/java/com/dogakasifleri/viewmodels/MiniGameViewModel.kt:234:2 Syntax error: Missing '}.
+

@@ -46,25 +46,27 @@ class TestHelper {
                     id = 1,
                     name = "Orman",
                     description = "Ağaçlar ve bitkilerle dolu yaşam alanı",
-                    imageResId = R.drawable.forest_icon
+                    imageResId = 1
                 )
 
                 // Düzeltilmiş Tür modeli
                 val species = com.dogakasifleri.models.Species(
                     id = 1,
                     name = "Kartal",
-                    imageResId = R.drawable.eagle,
+                    imageResId = 2,
                     description = "Yırtıcı bir kuş türü"
                 )
 
                 // Düzeltilmiş Başarı modeli
                 val achievement = com.dogakasifleri.models.Achievement(
-                    id = 1.toString(),
+                    id = 1,
                     title = "Orman Kaşifi",
                     description = "Ormandaki tüm türleri keşfet",
-                    targetCount = 10,
-                    currentCount = 0
-                )
+                    iconResId = 1,
+                    maxProgress = 10,
+                    progress = 0,
+                    completed = false
+                ) 
 
                 // Düzeltilmiş Karakter seçeneği modeli
                 val characterOption = com.dogakasifleri.models.CharacterOption(
@@ -106,7 +108,7 @@ class TestHelper {
                         id = 1,
                         name = "Orman",
                         description = "Ağaçlar ve bitkilerle dolu yaşam alanı",
-                        imageResId = R.drawable.forest_icon
+                        imageResId = 1
                     )
                 )
 
@@ -115,9 +117,9 @@ class TestHelper {
                 // Düzeltilmiş Tür listesi
                 val species = listOf(
                     com.dogakasifleri.models.Species(
-                        id = 1,
+                     id = 1,
                         name = "Kartal",
-                        imageResId = R.drawable.eagle,
+                        imageResId = 2,
                         description = "Yırtıcı bir kuş türü"
                     )
                 )

@@ -47,7 +47,8 @@ class CollectionViewModel : ViewModel() {
                     ecosystemType = "Orman",
                     discoveryDate = System.currentTimeMillis() - 86400000, // 1 gün önce
                     rarity = "Rare",
-                    referenceId = 1
+                    referenceId = 1,
+                     speciesId = 1
                 ),
                 CollectionItem(
                     id = 2,
@@ -58,7 +59,8 @@ class CollectionViewModel : ViewModel() {
                     ecosystemType = "Orman",
                     discoveryDate = System.currentTimeMillis() - 172800000, // 2 gün önce
                     rarity = "Uncommon",
-                    referenceId = 2
+                    referenceId = 2,
+                     speciesId = 2
                 ),
                 CollectionItem(
                     id = 3,
@@ -69,7 +71,8 @@ class CollectionViewModel : ViewModel() {
                     ecosystemType = "Okyanus",
                     discoveryDate = System.currentTimeMillis() - 259200000, // 3 gün önce
                     rarity = "Common",
-                    referenceId = 3
+                    referenceId = 3,
+                     speciesId = 3
                 ),
                 CollectionItem(
                     id = 4,
@@ -81,7 +84,8 @@ class CollectionViewModel : ViewModel() {
                     discoveryDate = System.currentTimeMillis() - 345600000, // 4 gün önce
                     rarity = "Uncommon",
                     referenceId = 8,
-                    isFavorite = true
+                    isFavorite = true,
+                     speciesId = 4
                 ),
                 CollectionItem(
                     id = 5,
@@ -92,7 +96,8 @@ class CollectionViewModel : ViewModel() {
                     ecosystemType = "Çöl",
                     discoveryDate = System.currentTimeMillis() - 432000000, // 5 gün önce
                     rarity = "Common",
-                    referenceId = 5
+                    referenceId = 5,
+                     speciesId = 5
                 )
             )
             

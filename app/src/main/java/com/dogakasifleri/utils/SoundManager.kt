@@ -15,7 +15,7 @@ class SoundManager(private val context: Context) {
     private var mediaPlayer: MediaPlayer? = null
     private val soundMap = HashMap<String, Int>()
     private var volume: Float = 1.0f
-    private var isMuted: Boolean = false
+    private var isMuted: Boolean = false //isMuted değişkeni var yapıldı.
     private val preferenceManager = PreferenceManager(context)
 
     init {

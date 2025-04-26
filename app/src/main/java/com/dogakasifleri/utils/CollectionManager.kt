@@ -37,7 +37,7 @@ class CollectionManager(private val context: Context) {
         return collectedItems.any { it.speciesId == speciesId }
 
     }
-    fun getCollectedSpecies(): MutableList<CollectionItem> {
+    fun getCollectedSpecies(): MutableList<Int> {
         val collectedItems = mutableListOf<CollectionItem>()
 
         // Tüm kayıtları kontrol et
@@ -48,18 +48,22 @@ class CollectionManager(private val context: Context) {
             if (entry.key.startsWith("species_") && entry.value == true) {
                 val speciesId = entry.key.removePrefix("species_").toIntOrNull()
                 if (speciesId != null) {
-                    collectedItems.add(CollectionItem(speciesId))
+                    collectedItems.add(speciesId)
                 }
             }
         }
-
-        return collectedSpecies
+        return collectedItems
     }
-    /**
-     * Koleksiyondaki tüm türlerin ID'lerini döndürür
-     */
-
+   
+    /**Koleksiyondaki tür sayısını döndürür*/
+    fun getCollectionCount(): Int = getCollectedSpecies().count()
+    /**Koleksiyonu temizler*/
+    fun clearCollection() {
+        val editor = sharedPreferences.edit()
+        editor.clear()
+        editor.apply()
     }
+}
 
     /**
      * Koleksiyondaki tür sayısını döndürür
